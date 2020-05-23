@@ -1,0 +1,529 @@
+{
+	"_licenseLong": "This document contains data extracted from <https://eur-lex.europa.eu>, enhanced by individual contributors. This work is licensed under the Creative Commons Attribution 4.0 International licence​​ (<https://creativecommons.org/licenses/by/4.0/>). This means that you can re-use the content provided you acknowledge the source and indicate any changes you have made. The data is not necessarily comprehensive, complete, accurate or up to date. The acknowledgement is not needed when using statements of the data set for labelling products, of course, as this is the intended usage.",
+	"_licenseShort": "© European Union, https://eur-lex.europa.eu, 1998-2020, CC BY 4.0, © hpstatements contributors, https://github.com/mhchem/hpstatements/contributors, 2019-2020, CC BY 4.0",
+	"_source": "https://github.com/mhchem/hpstatements",
+	"enhancements": [
+		{
+			"code": "H340",
+			".0": "Kann genetische Defekte verursachen <Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Kann genetische Defekte verursachen.",
+			"-1": "Kann genetische Defekte verursachen{1}."
+		},
+		{
+			"code": "H341",
+			".0": "Kann vermutlich genetische Defekte verursachen <Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Kann vermutlich genetische Defekte verursachen.",
+			"-1": "Kann vermutlich genetische Defekte verursachen{1}."
+		},
+		{
+			"code": "H350",
+			".0": "Kann Krebs erzeugen <Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Kann Krebs erzeugen.",
+			"-1": "Kann Krebs erzeugen{1}."
+		},
+		{
+			"code": "H351",
+			".0": "Kann vermutlich Krebs erzeugen <Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Kann vermutlich Krebs erzeugen.",
+			"-1": "Kann vermutlich Krebs erzeugen{1}."
+		},
+		{
+			"code": "H360",
+			".0": "Kann die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen <konkrete Wirkung angeben, sofern bekannt> <Expositionsweg angeben, sofern schlüssig belegt ist, dass die Gefahr bei keinem anderen Expositionsweg besteht>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Kann die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen.",
+			"-1": "Kann die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen{1}."
+		},
+		{
+			"code": "H361",
+			".0": "Kann vermutlich die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen <konkrete Wirkung angeben, sofern bekannt> <Expositionsweg angeben, sofern schlüssig belegt ist, dass die Gefahr bei keinem anderen Expositionsweg besteht>",
+			"type": "#note: 1 optional parameter",
+			"-0": "Kann vermutlich die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen",
+			"-1": "Kann vermutlich die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen{1}"
+		},
+		{
+			"code": "H370",
+			".0": "Schädigt die Organe <oder alle betroffenen Organe nennen, sofern bekannt> <Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "Schädigt die Organe.",
+			"-1": "Schädigt {1}.",
+			"-2": "Schädigt die Organe{2}.",
+			"-3": "Schädigt {1}{2}."
+		},
+		{
+			"code": "H371",
+			".0": "Kann die Organe schädigen <oder alle betroffenen Organe nennen, sofern bekann> <Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "Kann die Organe schädigen.",
+			"-1": "Kann {1} schädigen.",
+			"-2": "Kann die Organe schädigen{2}.",
+			"-3": "Kann {1} schädigen{2}."
+		},
+		{
+			"code": "H372",
+			".0": "Schädigt die Organe <alle betroffenen Organe nennen> bei längerer oder wiederholter Exposition <Expositionsweg angeben, wenn schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "Schädigt die Organe bei längerer oder wiederholter Exposition.",
+			"-1": "Schädigt {1} bei längerer oder wiederholter Exposition.",
+			"-2": "Schädigt die Organe bei längerer oder wiederholter Exposition{2}.",
+			"-3": "Schädigt {1} bei längerer oder wiederholter Exposition{2}."
+		},
+		{
+			"code": "H373",
+			".0": "Kann die Organe schädigen <alle betroffenen Organe nennen, sofern bekannt> bei längerer oder wiederholter Exposition <Expositionsweg angeben, wenn schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "Kann die Organe schädigen bei längerer oder wiederholter Exposition.",
+			"-1": "Kann {1} schädigen bei längerer oder wiederholter Exposition.",
+			"-2": "Kann die Organe schädigen bei längerer oder wiederholter Exposition{2}.",
+			"-3": "Kann {1} schädigen bei längerer oder wiederholter Exposition{2}."
+		},
+		{
+			"code": "EUH018",
+			".0": "Kann bei Verwendung explosionsfähige/entzündbare Dampf/Luft-Gemische bilden.",
+			"type": "#note: 2 variants",
+			".1": "Kann bei Verwendung entzündbare Dampf/Luft-Gemische bilden.",
+			".2": "Kann bei Verwendung explosionsfähige Dampf/Luft-Gemische bilden."
+		},
+		{
+			"code": "EUH208",
+			".0": "Enthält <Name des sensibilisierenden Stoffes>. Kann allergische Reaktionen hervorrufen.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Enthält {1}. Kann allergische Reaktionen hervorrufen."
+		},
+		{
+			"code": "P220",
+			".0": "Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
+			"type": "#note: 2 variants and 2 variants or 1 parameter",
+			".1.1": "#fixme [create variant 1, variant 1]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
+			".1.2": "#fixme [create variant 1, variant 2]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
+			".1-1": "#fixme [create variant 1, insert parameter {1}]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
+			".2.1": "#fixme [create variant 2, variant 1]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
+			".2.2": "#fixme [create variant 2, variant 1]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
+			".2-1": "#fixme [create variant 2, insert parameter {1}]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren."
+		},
+		{
+			"code": "P221",
+			".0": "Mischen mit brennbaren Stoffen/… unbedingt verhindern.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "#fixme [create variant 1]: Mischen mit brennbaren Stoffen/… unbedingt verhindern.",
+			"-1": "#fixme [insert parameter {1}]: Mischen mit brennbaren Stoffen/… unbedingt verhindern."
+		},
+		{
+			"code": "P230",
+			".0": "Feucht halten mit …",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Feucht halten mit {1}"
+		},
+		{
+			"code": "P231",
+			".0": "Inhalt unter inertem Gas/… handhaben und aufbewahren.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Inhalt unter inertem Gas handhaben und aufbewahren.",
+			"-1": "Inhalt unter {1} handhaben und aufbewahren."
+		},
+		{
+			"code": "P231+P232",
+			".0": "Inhalt unter inertem Gas/… handhaben und aufbewahren. Vor Feuchtigkeit schützen.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Inhalt unter inertem Gas handhaben und aufbewahren. Vor Feuchtigkeit schützen.",
+			"-1": "Inhalt unter {1} handhaben und aufbewahren. Vor Feuchtigkeit schützen."
+		},
+		{
+			"code": "P241",
+			".0": "Explosionsgeschützte elektrische Geräte/Lüftungsanlagen/Beleuchtungsanlagen/… verwenden.",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "#fixme [create variant 1]: Explosionsgeschützte elektrische Geräte/Lüftungsanlagen/Beleuchtungsanlagen/… verwenden.",
+			".2": "#fixme [create variant 2]: Explosionsgeschützte elektrische Geräte/Lüftungsanlagen/Beleuchtungsanlagen/… verwenden.",
+			".3": "#fixme [create variant 3]: Explosionsgeschützte elektrische Geräte/Lüftungsanlagen/Beleuchtungsanlagen/… verwenden.",
+			"-1": "#fixme [insert parameter {1}]: Explosionsgeschützte elektrische Geräte/Lüftungsanlagen/Beleuchtungsanlagen/… verwenden."
+		},
+		{
+			"code": "P241",
+			".0": "Explosionsgeschützte [elektrische/Lüftungs-/Beleuchtungs-/…] Geräte verwenden.",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "Explosionsgeschützte elektrische Geräte verwenden.",
+			".2": "Explosionsgeschützte Lüftungs-Geräte verwenden.",
+			".3": "Explosionsgeschützte Beleuchtungs-Geräte verwenden.",
+			"-1": "Explosionsgeschützte {1}Geräte verwenden."
+		},
+		{
+			"code": "P250",
+			".0": "Nicht schleifen/stoßen/…/reiben.",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "#fixme [create variant 1]: Nicht schleifen/stoßen/…/reiben.",
+			".2": "#fixme [create variant 2]: Nicht schleifen/stoßen/…/reiben.",
+			".3": "#fixme [create variant 3]: Nicht schleifen/stoßen/…/reiben.",
+			"-1": "#fixme [insert parameter {1}]: Nicht schleifen/stoßen/…/reiben."
+		},
+		{
+			"code": "P250",
+			".0": "Nicht schleifen/stoßen/reiben/… .",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "Nicht schleifen.",
+			".2": "Nicht stoßen.",
+			".3": "Nicht reiben.",
+			"-1": "Nicht {1}."
+		},
+		{
+			"code": "P260",
+			".0": "Staub/Rauch/Gas/Nebel/Dampf/Aerosol nicht einatmen.",
+			"type": "#note: 6 variants",
+			".1": "Staub nicht einatmen.",
+			".2": "Rauch nicht einatmen.",
+			".3": "Gas nicht einatmen.",
+			".4": "Nebel nicht einatmen.",
+			".5": "Dampf nicht einatmen.",
+			".6": "Aerosol nicht einatmen."
+		},
+		{
+			"code": "P261",
+			".0": "Einatmen von Staub/Rauch/Gas/Nebel/Dampf/Aerosol vermeiden.",
+			"type": "#note: 6 variants",
+			".1": "Einatmen von Staub vermeiden.",
+			".2": "Einatmen von Rauch vermeiden.",
+			".3": "Einatmen von Gas vermeiden.",
+			".4": "Einatmen von Nebel vermeiden.",
+			".5": "Einatmen von Dampf vermeiden.",
+			".6": "Einatmen von Aerosol vermeiden."
+		},
+		{
+			"code": "P263",
+			".0": "Kontakt während der Schwangerschaft/und der Stillzeit vermeiden.",
+			"type": "#note: 2 variants",
+			".1": "#fixme [create variant 1]: Kontakt während der Schwangerschaft/und der Stillzeit vermeiden.",
+			".2": "#fixme [create variant 2]: Kontakt während der Schwangerschaft/und der Stillzeit vermeiden."
+		},
+		{
+			"code": "P264",
+			".0": "Nach Gebrauch … gründlich waschen.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Nach Gebrauch {1} gründlich waschen."
+		},
+		{
+			"code": "P280",
+			".0": "Schutzhandschuhe/Schutzkleidung/Augenschutz/Gesichtsschutz tragen.",
+			"type": "#note: 4 variants",
+			".1": "Schutzhandschuhe tragen.",
+			".2": "Schutzkleidung tragen.",
+			".3": "Augenschutz tragen.",
+			".4": "Gesichtsschutz tragen."
+		},
+		{
+			"code": "P282",
+			".0": "Schutzhandschuhe mit Kälteisolierung/Gesichtsschild/Augenschutz tragen.",
+			"type": "#note: 3 variants",
+			".1": "#fixme [create variant 1]: Schutzhandschuhe mit Kälteisolierung/Gesichtsschild/Augenschutz tragen.",
+			".2": "#fixme [create variant 2]: Schutzhandschuhe mit Kälteisolierung/Gesichtsschild/Augenschutz tragen.",
+			".3": "#fixme [create variant 3]: Schutzhandschuhe mit Kälteisolierung/Gesichtsschild/Augenschutz tragen."
+		},
+		{
+			"code": "P283",
+			".0": "Schwer entflammbare/flammhemmende Kleidung tragen.",
+			"type": "#note: 2 variants",
+			".1": "#fixme [create variant 1]: Schwer entflammbare/flammhemmende Kleidung tragen.",
+			".2": "#fixme [create variant 2]: Schwer entflammbare/flammhemmende Kleidung tragen."
+		},
+		{
+			"code": "P301+P310",
+			".0": "BEI VERSCHLUCKEN: Sofort GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "BEI VERSCHLUCKEN: Sofort GIFTINFORMATIONSZENTRUM anrufen.",
+			".2": "BEI VERSCHLUCKEN: Sofort Arzt anrufen.",
+			"-1": "BEI VERSCHLUCKEN: Sofort {1} anrufen."
+		},
+		{
+			"code": "P301+P312",
+			".0": "BEI VERSCHLUCKEN: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "#fixme [create variant 1]: BEI VERSCHLUCKEN: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
+			".2": "#fixme [create variant 2]: BEI VERSCHLUCKEN: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
+			"-1": "#fixme [insert parameter {1}]: BEI VERSCHLUCKEN: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen."
+		},
+		{
+			"code": "P301+P312",
+			".0": "BEI VERSCHLUCKEN: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/… anrufen.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "BEI VERSCHLUCKEN: Bei Unwohlsein GIFTINFORMATIONSZENTRUM anrufen.",
+			".2": "BEI VERSCHLUCKEN: Bei Unwohlsein Arzt anrufen.",
+			"-1": "BEI VERSCHLUCKEN: Bei Unwohlsein {1} anrufen."
+		},
+		{
+			"code": "P302+P334",
+			".0": "BEI BERÜHRUNG MIT DER HAUT: In kaltes Wasser tauchen/nassen Verband anlegen.",
+			"type": "#note: 2 variants",
+			".1": "#fixme [create variant 1]: BEI BERÜHRUNG MIT DER HAUT: In kaltes Wasser tauchen/nassen Verband anlegen.",
+			".2": "#fixme [create variant 2]: BEI BERÜHRUNG MIT DER HAUT: In kaltes Wasser tauchen/nassen Verband anlegen."
+		},
+		{
+			"code": "P302+P335+P334",
+			".0": "BEI BERÜHRUNG MIT DER HAUT: Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen [oder nassen Verband anlegen].",
+			"type": "#note: 2 variants",
+			".1": "BEI BERÜHRUNG MIT DER HAUT: Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen.",
+			".2": "BEI BERÜHRUNG MIT DER HAUT: Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen oder nassen Verband anlegen."
+		},
+		{
+			"code": "P302+P352",
+			".0": "BEI BERÜHRUNG MIT DER HAUT: Mit viel Wasser/…/waschen.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "BEI BERÜHRUNG MIT DER HAUT: Mit viel Wasser waschen.",
+			"-1": "BEI BERÜHRUNG MIT DER HAUT: Mit {1} waschen."
+		},
+		{
+			"code": "P303+P361+P353",
+			".0": "BEI BERÜHRUNG MIT DER HAUT (oder dem Haar): Alle kontaminierten Kleidungsstücke sofort ausziehen. Haut mit Wasser abwaschen [oder duschen].",
+			"type": "#note: 2 variants",
+			".1": "BEI BERÜHRUNG MIT DER HAUT (oder dem Haar): Alle kontaminierten Kleidungsstücke sofort ausziehen. Haut mit Wasser abwaschen.",
+			".2": "BEI BERÜHRUNG MIT DER HAUT (oder dem Haar): Alle kontaminierten Kleidungsstücke sofort ausziehen. Haut mit Wasser abwaschen oder duschen."
+		},
+		{
+			"code": "P308+P311",
+			".0": "BEI Exposition oder falls betroffen: GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "BEI Exposition oder falls betroffen: GIFTINFORMATIONSZENTRUM anrufen.",
+			".2": "BEI Exposition oder falls betroffen: Arzt anrufen.",
+			"-1": "BEI Exposition oder falls betroffen: {1} anrufen."
+		},
+		{
+			"code": "P308+P313",
+			".0": "BEI Exposition oder falls betroffen: Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
+			"type": "#note: 2 variants",
+			".1": "BEI Exposition oder falls betroffen: Ärztlichen Rat einholen.",
+			".2": "BEI Exposition oder falls betroffen: Ärztliche Hilfe hinzuziehen."
+		},
+		{
+			"code": "P310",
+			".0": "Sofort GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "Sofort GIFTINFORMATIONSZENTRUM anrufen.",
+			".2": "Sofort Arzt anrufen.",
+			"-1": "Sofort {1} anrufen."
+		},
+		{
+			"code": "P311",
+			".0": "GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "GIFTINFORMATIONSZENTRUM anrufen.",
+			".2": "Arzt anrufen.",
+			"-1": "{1} anrufen."
+		},
+		{
+			"code": "P312",
+			".0": "Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "#fixme [create variant 1]: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
+			".2": "#fixme [create variant 2]: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
+			"-1": "#fixme [insert parameter {1}]: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen."
+		},
+		{
+			"code": "P312",
+			".0": "Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/… anrufen.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "Bei Unwohlsein GIFTINFORMATIONSZENTRUM anrufen.",
+			".2": "Bei Unwohlsein Arzt anrufen.",
+			"-1": "Bei Unwohlsein {1} anrufen."
+		},
+		{
+			"code": "P313",
+			".0": "Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
+			"type": "#note: 2 variants",
+			".1": "Ärztlichen Rat einholen.",
+			".2": "ärztliche Hilfe hinzuziehen."
+		},
+		{
+			"code": "P314",
+			".0": "Bei Unwohlsein ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
+			"type": "#note: 2 variants",
+			".1": "Bei Unwohlsein ärztlichen Rat einholen.",
+			".2": "Bei Unwohlsein ärztliche Hilfe hinzuziehen."
+		},
+		{
+			"code": "P315",
+			".0": "Sofort ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
+			"type": "#note: 2 variants",
+			".1": "Sofort ärztlichen Rat einholen.",
+			".2": "Sofort ärztliche Hilfe hinzuziehen."
+		},
+		{
+			"code": "P320",
+			".0": "Besondere Behandlung dringend erforderlich (siehe … auf diesem Kennzeichnungsetikett).",
+			"type": "#note: 1 mandatory parameter and noThisLabel option",
+			"-1": "Besondere Behandlung dringend erforderlich (siehe {1} auf diesem Kennzeichnungsetikett).",
+			"-2": "Besondere Behandlung dringend erforderlich (siehe {1}{2})."
+		},
+		{
+			"code": "P321",
+			".0": "Besondere Behandlung (siehe … auf diesem Kennzeichnungsetikett).",
+			"type": "#note: 1 mandatory parameter and noThisLabel option",
+			"-1": "Besondere Behandlung (siehe {1} auf diesem Kennzeichnungsetikett).",
+			"-2": "Besondere Behandlung (siehe {1}{2})."
+		},
+		{
+			"code": "P332+P313",
+			".0": "Bei Hautreizung: Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
+			"type": "#note: 2 variants",
+			".1": "Bei Hautreizung: Ärztlichen Rat einholen.",
+			".2": "Bei Hautreizung: Ärztliche Hilfe hinzuziehen."
+		},
+		{
+			"code": "P333+P313",
+			".0": "Bei Hautreizung oder -ausschlag: Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
+			"type": "#note: 2 variants",
+			".1": "Bei Hautreizung oder -ausschlag: Ärztlichen Rat einholen.",
+			".2": "Bei Hautreizung oder -ausschlag: Ärztliche Hilfe hinzuziehen."
+		},
+		{
+			"code": "P334",
+			".0": "In kaltes Wasser tauchen/nassen Verband anlegen.",
+			"type": "#note: 2 variants",
+			".1": "#fixme [create variant 1]: In kaltes Wasser tauchen/nassen Verband anlegen.",
+			".2": "#fixme [create variant 2]: In kaltes Wasser tauchen/nassen Verband anlegen."
+		},
+		{
+			"code": "P334",
+			".0": "In kaltes Wasser tauchen [oder nassen Verband anlegen].",
+			"type": "#note: 2 variants",
+			".1": "In kaltes Wasser tauchen.",
+			".2": "In kaltes Wasser tauchen oder nassen Verband anlegen."
+		},
+		{
+			"code": "P335+P334",
+			".0": "Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen/nassen Verband anlegen.",
+			"type": "#note: 2 variants",
+			".1": "#fixme [create variant 1]: Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen/nassen Verband anlegen.",
+			".2": "#fixme [create variant 2]: Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen/nassen Verband anlegen."
+		},
+		{
+			"code": "P336+P315",
+			".0": "Vereiste Bereiche mit lauwarmem Wasser auftauen. Betroffenen Bereich nicht reiben. Sofort ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
+			"type": "#note: 2 variants",
+			".1": "Vereiste Bereiche mit lauwarmem Wasser auftauen. Betroffenen Bereich nicht reiben. Sofort ärztlichen Rat einholen.",
+			".2": "Vereiste Bereiche mit lauwarmem Wasser auftauen. Betroffenen Bereich nicht reiben. Sofort ärztliche Hilfe hinzuziehen."
+		},
+		{
+			"code": "P337+P313",
+			".0": "Bei anhaltender Augenreizung: Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
+			"type": "#note: 2 variants",
+			".1": "Bei anhaltender Augenreizung: Ärztlichen Rat einholen.",
+			".2": "Bei anhaltender Augenreizung: Ärztliche Hilfe hinzuziehen."
+		},
+		{
+			"code": "P342+P311",
+			".0": "Bei Symptomen der Atemwege: GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "Bei Symptomen der Atemwege: GIFTINFORMATIONSZENTRUM anrufen.",
+			".2": "Bei Symptomen der Atemwege: Arzt anrufen.",
+			"-1": "Bei Symptomen der Atemwege: {1} anrufen."
+		},
+		{
+			"code": "P352",
+			".0": "Mit viel Wasser/…/waschen.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Mit viel Wasser waschen.",
+			"-1": "Mit {1} waschen."
+		},
+		{
+			"code": "P353",
+			".0": "Haut mit Wasser abwaschen [oder duschen].",
+			"type": "#note: 2 variants",
+			".1": "Haut mit Wasser abwaschen.",
+			".2": "Haut mit Wasser abwaschen oder duschen."
+		},
+		{
+			"code": "P370+P378",
+			".0": "Bei Brand: … zum Löschen verwenden.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Bei Brand: {1} zum Löschen verwenden."
+		},
+		{
+			"code": "P370+P380+P375+P378",
+			".0": "Bei Brand: Umgebung räumen. Wegen Explosionsgefahr Brand aus der Entfernung bekämpfen. … zum Löschen verwenden.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Bei Brand: Umgebung räumen. Wegen Explosionsgefahr Brand aus der Entfernung bekämpfen. {1} zum Löschen verwenden."
+		},
+		{
+			"code": "P378",
+			".0": "… zum Löschen verwenden.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "{1} zum Löschen verwenden."
+		},
+		{
+			"code": "P401",
+			".0": "… aufbewahren.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "#fixme [insert parameter {1}]: … aufbewahren."
+		},
+		{
+			"code": "P401",
+			".0": "Aufbewahren gemäß … .",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Aufbewahren gemäß {1}."
+		},
+		{
+			"code": "P406",
+			".0": "In korrosionsbeständigem/… Behälter mit widerstandsfähiger Innenauskleidung aufbewahren.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "#fixme [create variant 1]: In korrosionsbeständigem/… Behälter mit widerstandsfähiger Innenauskleidung aufbewahren.",
+			"-1": "#fixme [insert parameter {1}]: In korrosionsbeständigem/… Behälter mit widerstandsfähiger Innenauskleidung aufbewahren."
+		},
+		{
+			"code": "P406",
+			".0": "In korrosionsbeständigem/… Behälter mit korrosionsbeständiger Innenauskleidung aufbewahren.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "In korrosionsbeständigem Behälter mit korrosionsbeständiger Innenauskleidung aufbewahren.",
+			"-1": "In {1}Behälter mit korrosionsbeständiger Innenauskleidung aufbewahren."
+		},
+		{
+			"code": "P410+P412",
+			".0": "Vor Sonnenbestrahlung schützen und nicht Temperaturen über 50 °C/122 °F aussetzen.",
+			"type": "#note: 2 variants",
+			".1": "Vor Sonnenbestrahlung schützen und nicht Temperaturen über 50 °C aussetzen.",
+			".2": "Vor Sonnenbestrahlung schützen und nicht Temperaturen über 122 °F aussetzen."
+		},
+		{
+			"code": "P411",
+			".0": "Bei Temperaturen nicht über … °C/… °F aufbewahren.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Bei Temperaturen nicht über {1} °C aufbewahren.",
+			".2-1": "Bei Temperaturen nicht über {2} °F aufbewahren."
+		},
+		{
+			"code": "P411+P235",
+			".0": "Bei Temperaturen nicht über … °C/… °F aufbewahren. Kühl halten.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Bei Temperaturen nicht über {1} °C aufbewahren. Kühl halten.",
+			".2-1": "Bei Temperaturen nicht über {1} °F aufbewahren. Kühl halten."
+		},
+		{
+			"code": "P412",
+			".0": "Nicht Temperaturen über 50 °C/122 °F aussetzen.",
+			"type": "#note: 2 variants",
+			".1": "Nicht Temperaturen über 50 °C aussetzen.",
+			".2": "Nicht Temperaturen über 122 °F aussetzen."
+		},
+		{
+			"code": "P413",
+			".0": "Schüttgut in Mengen von mehr als … kg/… lbs bei Temperaturen nicht über … °C/… °F aufbewahren.",
+			"type": "#note: 2 variants with 2 mandatory parameters each",
+			".1-2": "Schüttgut in Mengen von mehr als {1} kg bei Temperaturen nicht über {2} °C aufbewahren.",
+			".2-2": "Schüttgut in Mengen von mehr als {1} lbs bei Temperaturen nicht über {2} °F aufbewahren."
+		},
+		{
+			"code": "P422",
+			".0": "Inhalt in/unter … aufbewahren",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Inhalt {1} aufbewahren"
+		},
+		{
+			"code": "P501",
+			".0": "Inhalt/Behälter … zuführen.",
+			"type": "#note: 2 variants and 1 mandatory parameter",
+			".0-1": "Inhalt/Behälter {1} zuführen.",
+			".1-1": "Inhalt {1} zuführen.",
+			".2-1": "Behälter {1} zuführen."
+		}
+	]
+}

@@ -1,0 +1,529 @@
+{
+	"_licenseLong": "This document contains data extracted from <https://eur-lex.europa.eu>, enhanced by individual contributors. This work is licensed under the Creative Commons Attribution 4.0 International licence​​ (<https://creativecommons.org/licenses/by/4.0/>). This means that you can re-use the content provided you acknowledge the source and indicate any changes you have made. The data is not necessarily comprehensive, complete, accurate or up to date. The acknowledgement is not needed when using statements of the data set for labelling products, of course, as this is the intended usage.",
+	"_licenseShort": "© European Union, https://eur-lex.europa.eu, 1998-2020, CC BY 4.0, © hpstatements contributors, https://github.com/mhchem/hpstatements/contributors, 2019-2020, CC BY 4.0",
+	"_source": "https://github.com/mhchem/hpstatements",
+	"enhancements": [
+		{
+			"code": "H340",
+			".0": "May cause genetic defects <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "May cause genetic defects.",
+			"-1": "May cause genetic defects{1}."
+		},
+		{
+			"code": "H341",
+			".0": "Suspected of causing genetic defects <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Suspected of causing genetic defects.",
+			"-1": "Suspected of causing genetic defects{1}."
+		},
+		{
+			"code": "H350",
+			".0": "May cause cancer <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "May cause cancer.",
+			"-1": "May cause cancer{1}."
+		},
+		{
+			"code": "H351",
+			".0": "Suspected of causing cancer <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Suspected of causing cancer.",
+			"-1": "Suspected of causing cancer{1}."
+		},
+		{
+			"code": "H360",
+			".0": "May damage fertility or the unborn child <state specific effect if known > <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "May damage fertility or the unborn child.",
+			"-1": "May damage fertility or the unborn child{1}."
+		},
+		{
+			"code": "H361",
+			".0": "Suspected of damaging fertility or the unborn child <state specific effect if known> <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Suspected of damaging fertility or the unborn child.",
+			"-1": "Suspected of damaging fertility or the unborn child{1}."
+		},
+		{
+			"code": "H370",
+			".0": "Causes damage to organs <or state all organs affected, if known> <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "Causes damage to organs.",
+			"-1": "Causes damage to {1}.",
+			"-2": "Causes damage to organs{2}.",
+			"-3": "Causes damage to {1}{2}."
+		},
+		{
+			"code": "H371",
+			".0": "May cause damage to organs <or state all organs affected, if known> <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "May cause damage to organs.",
+			"-1": "May cause damage to {1}.",
+			"-2": "May cause damage to organs{2}.",
+			"-3": "May cause damage to {1}{2}."
+		},
+		{
+			"code": "H372",
+			".0": "Causes damage to organs <or state all organs affected, if known> through prolonged or repeated exposure <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "Causes damage to organs through prolonged or repeated exposure.",
+			"-1": "Causes damage to {1} through prolonged or repeated exposure.",
+			"-2": "Causes damage to organs through prolonged or repeated exposure{2}.",
+			"-3": "Causes damage to {1} through prolonged or repeated exposure{2}."
+		},
+		{
+			"code": "H373",
+			".0": "May cause damage to organs <or state all organs affected, if known> through prolonged or repeated exposure <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "May cause damage to organs through prolonged or repeated exposure.",
+			"-1": "May cause damage to {1} through prolonged or repeated exposure.",
+			"-2": "May cause damage to organs through prolonged or repeated exposure{2}.",
+			"-3": "May cause damage to {1}{2}."
+		},
+		{
+			"code": "EUH018",
+			".0": "In use may form flammable/explosive vapour-air mixture.",
+			"type": "#note: 2 variants",
+			".1": "In use may form flammable vapour-air mixture.",
+			".2": "In use may form explosive vapour-air mixture."
+		},
+		{
+			"code": "EUH208",
+			".0": "Contains <name of sensitising substance>. May produce an allergic reaction.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Contains {1}. May produce an allergic reaction."
+		},
+		{
+			"code": "P220",
+			".0": "Keep/Store away from clothing/…/combustible materials.",
+			"type": "#note: 2 variants and 2 variants or 1 parameter",
+			".1.1": "Keep away from clothing.",
+			".1.2": "Keep away from combustible materials.",
+			".1-1": "Keep away from {1}.",
+			".2.1": "Store away from clothing.",
+			".2.2": "Store away from combustible materials.",
+			".2-1": "Store away from {1}."
+		},
+		{
+			"code": "P221",
+			".0": "Take any precaution to avoid mixing with combustibles…",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Take any precaution to avoid mixing with combustibles",
+			"-1": "Take any precaution to avoid mixing with {1}"
+		},
+		{
+			"code": "P230",
+			".0": "Keep wetted with…",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Keep wetted with {1}"
+		},
+		{
+			"code": "P231",
+			".0": "Handle and store contents under inert gas/…",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Handle and store contents under inert gas",
+			"-1": "Handle and store contents under {1}"
+		},
+		{
+			"code": "P231+P232",
+			".0": "Handle and store contents under inert gas/…. Protect from moisture.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Handle and store contents under inert gas. Protect from moisture.",
+			"-1": "Handle and store contents under {1}. Protect from moisture."
+		},
+		{
+			"code": "P241",
+			".0": "Use explosion-proof electrical/ventilating/lighting/…/equipment.",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "Use explosion-proof electrical equipment.",
+			".2": "Use explosion-proof ventilating equipment.",
+			".3": "Use explosion-proof lighting equipment.",
+			"-1": "Use explosion-proof {1} equipment."
+		},
+		{
+			"code": "P241",
+			".0": "Use explosion-proof [electrical/ventilating/lighting/…] equipment.",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "Use explosion-proof electrical equipment.",
+			".2": "Use explosion-proof ventilating equipment.",
+			".3": "Use explosion-proof lighting equipment.",
+			"-1": "Use explosion-proof {1} equipment."
+		},
+		{
+			"code": "P250",
+			".0": "Do not subject to grinding/shock/…/friction.",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "Do not subject to grinding.",
+			".2": "Do not subject to shock.",
+			".3": "Do not subject to friction.",
+			"-1": "Do not subject to {1}."
+		},
+		{
+			"code": "P250",
+			".0": "Do not subject to grinding/shock/friction/… .",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "Do not subject to grinding.",
+			".2": "Do not subject to shock.",
+			".3": "Do not subject to friction.",
+			"-1": "Do not subject to {1}."
+		},
+		{
+			"code": "P260",
+			".0": "Do not breathe dust/fume/gas/mist/vapours/spray.",
+			"type": "#note: 6 variants",
+			".1": "Do not breathe dust.",
+			".2": "Do not breathe fume.",
+			".3": "Do not breathe gas.",
+			".4": "Do not breathe mist.",
+			".5": "Do not breathe vapours.",
+			".6": "Do not breathe spray."
+		},
+		{
+			"code": "P261",
+			".0": "Avoid breathing dust/fume/gas/mist/vapours/spray.",
+			"type": "#note: 6 variants",
+			".1": "Avoid breathing dust.",
+			".2": "Avoid breathing fume.",
+			".3": "Avoid breathing gas.",
+			".4": "Avoid breathing mist.",
+			".5": "Avoid breathing vapours.",
+			".6": "Avoid breathing spray."
+		},
+		{
+			"code": "P263",
+			".0": "Avoid contact during pregnancy/while nursing.",
+			"type": "#note: 2 variants",
+			".1": "Avoid contact during pregnancy.",
+			".2": "Avoid contact while nursing."
+		},
+		{
+			"code": "P264",
+			".0": "Wash … thoroughly after handling.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Wash {1} thoroughly after handling."
+		},
+		{
+			"code": "P280",
+			".0": "Wear protective gloves/protective clothing/eye protection/face protection.",
+			"type": "#note: 4 variants",
+			".1": "Wear protective gloves.",
+			".2": "Wear protective clothing.",
+			".3": "Wear eye protection.",
+			".4": "Wear face protection."
+		},
+		{
+			"code": "P282",
+			".0": "Wear cold insulating gloves/face shield/eye protection.",
+			"type": "#note: 3 variants",
+			".1": "Wear cold insulating gloves.",
+			".2": "Wear face shield.",
+			".3": "Wear eye protection."
+		},
+		{
+			"code": "P283",
+			".0": "Wear fire/flame resistant/retardant clothing.",
+			"type": "#note: 2 variants",
+			".1": "Wear fire resistant clothing.",
+			".2": "Wear flame retardant clothing."
+		},
+		{
+			"code": "P301+P310",
+			".0": "IF SWALLOWED: Immediately call a POISON CENTER/doctor/…",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "IF SWALLOWED: Immediately call a POISON CENTER",
+			".2": "IF SWALLOWED: Immediately call a doctor",
+			"-1": "IF SWALLOWED: Immediately call {1}"
+		},
+		{
+			"code": "P301+P312",
+			".0": "IF SWALLOWED: Call a POISON CENTER/doctor/…/if you feel unwell.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "IF SWALLOWED: Call a POISON CENTER if you feel unwell.",
+			".2": "IF SWALLOWED: Call a doctor if you feel unwell.",
+			"-1": "IF SWALLOWED: Call {1} if you feel unwell."
+		},
+		{
+			"code": "P301+P312",
+			".0": "IF SWALLOWED: Call a POISON CENTRE/doctor/… if you feel unwell.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "IF SWALLOWED: Call a POISON CENTRE if you feel unwell.",
+			".2": "IF SWALLOWED: Call a doctor if you feel unwell.",
+			"-1": "IF SWALLOWED: Call {1} if you feel unwell."
+		},
+		{
+			"code": "P302+P334",
+			".0": "IF ON SKIN: Immerse in cool water/wrap in wet bandages.",
+			"type": "#note: 2 variants",
+			".1": "IF ON SKIN: Immerse in cool water.",
+			".2": "IF ON SKIN: Wrap in wet bandages."
+		},
+		{
+			"code": "P302+P335+P334",
+			".0": "IF ON SKIN: Brush off loose particles from skin. Immerse in cool water [or wrap in wet bandages].",
+			"type": "#note: 2 variants",
+			".1": "IF ON SKIN: Brush off loose particles from skin. Immerse in cool water.",
+			".2": "IF ON SKIN: Brush off loose particles from skin. Immerse in cool water or wrap in wet bandages."
+		},
+		{
+			"code": "P302+P352",
+			".0": "IF ON SKIN: Wash with plenty of water/…",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "IF ON SKIN: Wash with plenty of water",
+			"-1": "IF ON SKIN: Wash with {1}"
+		},
+		{
+			"code": "P303+P361+P353",
+			".0": "IF ON SKIN (or hair): Take off immediately all contaminated clothing. Rinse skin with water [or shower].",
+			"type": "#note: 2 variants",
+			".1": "IF ON SKIN (or hair): Take off immediately all contaminated clothing. Rinse skin with water.",
+			".2": "IF ON SKIN (or hair): Take off immediately all contaminated clothing. Rinse skin with water or shower."
+		},
+		{
+			"code": "P308+P311",
+			".0": "IF exposed or concerned: Call a POISON CENTER/doctor/…",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "IF exposed or concerned: Call a POISON CENTER",
+			".2": "IF exposed or concerned: Call a doctor",
+			"-1": "IF exposed or concerned: Call {1}"
+		},
+		{
+			"code": "P308+P313",
+			".0": "IF exposed or concerned: Get medical advice/attention.",
+			"type": "#note: 2 variants",
+			".1": "IF exposed or concerned: Get medical advice.",
+			".2": "IF exposed or concerned: Get medical attention."
+		},
+		{
+			"code": "P310",
+			".0": "Immediately call a POISON CENTER/doctor/…",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "Immediately call a POISON CENTER",
+			".2": "Immediately call a doctor",
+			"-1": "Immediately call {1}"
+		},
+		{
+			"code": "P311",
+			".0": "Call a POISON CENTER/doctor/…",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "Call a POISON CENTER",
+			".2": "Call a doctor",
+			"-1": "Call {1}"
+		},
+		{
+			"code": "P312",
+			".0": "Call a POISON CENTER/doctor/…/if you feel unwell.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "Call a POISON CENTER if you feel unwell.",
+			".2": "Call a doctor if you feel unwell.",
+			"-1": "Call {1} if you feel unwell."
+		},
+		{
+			"code": "P312",
+			".0": "Call a POISON CENTRE/doctor/… if you feel unwell.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "Call a POISON CENTRE/ if you feel unwell.",
+			".2": "Call a doctor if you feel unwell.",
+			"-1": "Call {1} if you feel unwell."
+		},
+		{
+			"code": "P313",
+			".0": "Get medical advice/attention.",
+			"type": "#note: 2 variants",
+			".1": "Get medical advice.",
+			".2": "Get medical attention."
+		},
+		{
+			"code": "P314",
+			".0": "Get medical advice/attention if you feel unwell.",
+			"type": "#note: 2 variants",
+			".1": "Get medical advice if you feel unwell.",
+			".2": "Get medical attention if you feel unwell."
+		},
+		{
+			"code": "P315",
+			".0": "Get immediate medical advice/attention.",
+			"type": "#note: 2 variants",
+			".1": "Get immediate medical advice.",
+			".2": "Get immediate medical attention."
+		},
+		{
+			"code": "P320",
+			".0": "Specific treatment is urgent (see … on this label).",
+			"type": "#note: 1 mandatory parameter and noThisLabel option",
+			"-1": "Specific treatment is urgent (see {1} on this label).",
+			"-2": "Specific treatment is urgent (see {1}{2})."
+		},
+		{
+			"code": "P321",
+			".0": "Specific treatment (see … on this label).",
+			"type": "#note: 1 mandatory parameter and noThisLabel option",
+			"-1": "Specific treatment (see {1} on this label).",
+			"-2": "Specific treatment (see {1}{2})."
+		},
+		{
+			"code": "P332+P313",
+			".0": "If skin irritation occurs: Get medical advice/attention.",
+			"type": "#note: 2 variants",
+			".1": "If skin irritation occurs: Get medical advice/.",
+			".2": "If skin irritation occurs: Get medical attention."
+		},
+		{
+			"code": "P333+P313",
+			".0": "If skin irritation or rash occurs: Get medical advice/attention.",
+			"type": "#note: 2 variants",
+			".1": "#If skin irritation or rash occurs: Get medical advice.",
+			".2": "If skin irritation or rash occurs: Get medical attention."
+		},
+		{
+			"code": "P334",
+			".0": "Immerse in cool water/wrap in wet bandages.",
+			"type": "#note: 2 variants",
+			".1": "Immerse in cool water.",
+			".2": "Wrap in wet bandages."
+		},
+		{
+			"code": "P334",
+			".0": "Immerse in cool water [or wrap in wet bandages].",
+			"type": "#note: 2 variants",
+			".1": "Immerse in cool water.",
+			".2": "Immerse in cool water or wrap in wet bandages."
+		},
+		{
+			"code": "P335+P334",
+			".0": "Brush off loose particles from skin. Immerse in cool water/wrap in wet bandages.",
+			"type": "#note: 2 variants",
+			".1": "Brush off loose particles from skin. Immerse in cool water.",
+			".2": "Brush off loose particles from skin. Wrap in wet bandages."
+		},
+		{
+			"code": "P336+P315",
+			".0": "Thaw frosted parts with lukewarm water. Do not rub affected area. Get immediate medical advice/attention.",
+			"type": "#note: 2 variants",
+			".1": "Thaw frosted parts with lukewarm water. Do not rub affected area. Get immediate medical advice.",
+			".2": "Thaw frosted parts with lukewarm water. Do not rub affected area. Get immediate medical attention."
+		},
+		{
+			"code": "P337+P313",
+			".0": "If eye irritation persists: Get medical advice/attention.",
+			"type": "#note: 2 variants",
+			".1": "If eye irritation persists: Get medical advice.",
+			".2": "If eye irritation persists: Get medical attention."
+		},
+		{
+			"code": "P342+P311",
+			".0": "If experiencing respiratory symptoms: Call a POISON CENTER/doctor/…",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "If experiencing respiratory symptoms: Call a POISON CENTER",
+			".2": "If experiencing respiratory symptoms: Call a doctor",
+			"-1": "If experiencing respiratory symptoms: Call {1}"
+		},
+		{
+			"code": "P352",
+			".0": "Wash with plenty of water/…",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Wash with plenty of water",
+			"-1": "Wash with {1}"
+		},
+		{
+			"code": "P353",
+			".0": "Rinse skin with water [or shower].",
+			"type": "#note: 2 variants",
+			".1": "Rinse skin with water.",
+			".2": "Rinse skin with water or shower."
+		},
+		{
+			"code": "P370+P378",
+			".0": "In case of fire: Use… to extinguish.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "In case of fire: Use {1} to extinguish."
+		},
+		{
+			"code": "P370+P380+P375+P378",
+			".0": "In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion. Use … to extinguish.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion. Use {1} to extinguish."
+		},
+		{
+			"code": "P378",
+			".0": "Use… to extinguish.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Use {1} to extinguish."
+		},
+		{
+			"code": "P401",
+			".0": "Store …",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Store {1}"
+		},
+		{
+			"code": "P401",
+			".0": "Store in accordance with… .",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Store in accordance with {1}."
+		},
+		{
+			"code": "P406",
+			".0": "Store in corrosive resistant/… container with a resistant inner liner.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Store in corrosive resistant container with a resistant inner liner.",
+			"-1": "Store in {1} container with a resistant inner liner."
+		},
+		{
+			"code": "P406",
+			".0": "Store in a corrosion-resistant/… container with a resistant inner liner.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Store in a corrosion-resistant container with a resistant inner liner.",
+			"-1": "Store in a {1} container with a resistant inner liner."
+		},
+		{
+			"code": "P410+P412",
+			".0": "Protect from sunlight. Do no expose to temperatures exceeding 50 °C/122°F.",
+			"type": "#note: 2 variants",
+			".1": "Protect from sunlight. Do no expose to temperatures exceeding 50 °C.",
+			".2": "Protect from sunlight. Do no expose to temperatures exceeding 122°F."
+		},
+		{
+			"code": "P411",
+			".0": "Store at temperatures not exceeding … °C/…°F.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Store at temperatures not exceeding {1} °C.",
+			".2-1": "Store at temperatures not exceeding {2}°F."
+		},
+		{
+			"code": "P411+P235",
+			".0": "Store at temperatures not exceeding … °C/…°F. Keep cool.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Store at temperatures not exceeding {1} °C/…°F. Keep cool.",
+			".2-1": "Store at temperatures not exceeding {1}°F. Keep cool."
+		},
+		{
+			"code": "P412",
+			".0": "Do not expose to temperatures exceeding 50 °C/122°F.",
+			"type": "#note: 2 variants",
+			".1": "Do not expose to temperatures exceeding 50 °C.",
+			".2": "Do not expose to temperatures exceeding 122°F."
+		},
+		{
+			"code": "P413",
+			".0": "Store bulk masses greater than … kg/… lbs at temperatures not exceeding … °C/…°F.",
+			"type": "#note: 2 variants with 2 mandatory parameters each",
+			".1-2": "Store bulk masses greater than {1} kg at temperatures not exceeding {2} °C.",
+			".2-2": "Store bulk masses greater than {1} lbs at temperatures not exceeding {2}°F."
+		},
+		{
+			"code": "P422",
+			".0": "Store contents under …",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Store contents under {1}"
+		},
+		{
+			"code": "P501",
+			".0": "Dispose of contents/container to …",
+			"type": "#note: 2 variants and 1 mandatory parameter",
+			".0-1": "Dispose of contents/container to {1}",
+			".1-1": "Dispose of contents to {1}",
+			".2-1": "Dispose of container to {1}"
+		}
+	]
+}
