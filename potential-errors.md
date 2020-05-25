@@ -23,7 +23,7 @@ This feedback is intended for the authors, translators, and editors of the origi
 - P406: Falls der Behälter nicht "korrosionsbeständig" sein muss, sondern anders (`…`), muss doch auch die Innenauskleidung nicht "korrosionsbeständig", sondern anders sein.
 - `GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.` --> `GIFTINFORMATIONSZENTRUM/Arzt anrufen.` (mehrfach)
 - `Mit viel Wasser/…/waschen` --> `Mit viel Wasser/… waschen` (mehrfach)
-- Schlusspunkt fehlt bei: H300+H310, H361, P230
+- Schlusspunkt fehlt bei: H300+..., H301+..., H302+..., H361, P230
 - Leerzeichen vor Schlusspunkt zu viel: P250, P401
 
 
