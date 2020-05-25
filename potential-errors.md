@@ -32,6 +32,7 @@ This feedback is intended for the authors, translators, and editors of the origi
 - Inconsistent spelling of `center`/`centre`, P311: `Call a POISON CENTER/doctor/…`, P312: `Call a POISON CENTRE/doctor/… if you feel unwell.` and others
 - Spacing around `…` not perfect: P230, P370+P378, P378, P401
 - P410+P412, P411, P412, P413: Is it intentional, that °C has a space after the number, but °F has not? Examples: `50 °C/122°F`, `… °C/…°F`.
+- P370+P380+P375[+P378]: `[Use … to extinguish].` should be `[Use … to extinguish.]` in order to align with P370+P380+P375
 - These sentences do not end with a dot: H300+H310, H300+H310+H330, H300+H330, H301+H311, H301+H311+H331, H301+H331, H302+H312, H302+H312+H332, H302+H332, H310+H330, H311+H331, H312+H332, H420, P230, P231, P301+P310, P302+P352, P308+P311, P310, 11, P342+P311, P352, P501
 - H360: Additional space before closing angular bracket: `<state specific effect if known >`
 - What should brackets mean in P284?
