@@ -26,6 +26,13 @@
 		},
 		{
 			"code": "H351",
+			".0": "Suspected of causing cancer <state route of exposure if it is conclusively proven that no other routs of exposure cause the hazard>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Suspected of causing cancer.",
+			"-1": "Suspected of causing cancer{1}."
+		},
+		{
+			"code": "H351",
 			".0": "Suspected of causing cancer <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>.",
 			"type": "#note: 1 optional parameter",
 			"-0": "Suspected of causing cancer.",
@@ -191,13 +198,6 @@
 			".6": "Avoid breathing spray."
 		},
 		{
-			"code": "P263",
-			".0": "Avoid contact during pregnancy/while nursing.",
-			"type": "#note: 2 variants",
-			".1": "Avoid contact during pregnancy.",
-			".2": "Avoid contact while nursing."
-		},
-		{
 			"code": "P264",
 			".0": "Wash … thoroughly after handling.",
 			"type": "#note: 1 mandatory parameter",
@@ -219,13 +219,6 @@
 			".1": "Wear cold insulating gloves.",
 			".2": "Wear face shield.",
 			".3": "Wear eye protection."
-		},
-		{
-			"code": "P283",
-			".0": "Wear fire/flame resistant/retardant clothing.",
-			"type": "#note: 2 variants",
-			".1": "Wear fire resistant clothing.",
-			".2": "Wear flame retardant clothing."
 		},
 		{
 			"code": "P301+P310",
@@ -362,6 +355,13 @@
 			"-2": "Specific treatment (see {1}{2})."
 		},
 		{
+			"code": "P322",
+			".0": "Specific measures (see … on this label).",
+			"type": "#note: 1 mandatory parameter and noThisLabel option",
+			"-1": "Specific measures (see {1} on this label).",
+			"-2": "Specific measures (see {1}{2})."
+		},
+		{
 			"code": "P332+P313",
 			".0": "If skin irritation occurs: Get medical advice/attention.",
 			"type": "#note: 2 variants",
@@ -434,6 +434,12 @@
 		},
 		{
 			"code": "P370+P378",
+			".0": "In case of fire: Use … for extinction.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "In case of fire: Use {1} for extinction."
+		},
+		{
+			"code": "P370+P378",
 			".0": "In case of fire: Use… to extinguish.",
 			"type": "#note: 1 mandatory parameter",
 			"-1": "In case of fire: Use {1} to extinguish."
@@ -443,6 +449,12 @@
 			".0": "In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion. Use … to extinguish.",
 			"type": "#note: 1 mandatory parameter",
 			"-1": "In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion. Use {1} to extinguish."
+		},
+		{
+			"code": "P378",
+			".0": "Use … for extinction.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Use {1} for extinction."
 		},
 		{
 			"code": "P378",
@@ -478,10 +490,24 @@
 		},
 		{
 			"code": "P410+P412",
+			".0": "Protect from sunlight. Do no expose to temperatures exceeding 50 °C/122°F.",
+			"type": "#note: 2 variants",
+			".1": "Protect from sunlight. Do no expose to temperatures exceeding 50 °C.",
+			".2": "Protect from sunlight. Do no expose to temperatures exceeding 122°F."
+		},
+		{
+			"code": "P410+P412",
 			".0": "Protect from sunlight. Do no expose to temperatures exceeding 50 °C/122°F.",
 			"type": "#note: 2 variants",
 			".1": "Protect from sunlight. Do no expose to temperatures exceeding 50 °C.",
 			".2": "Protect from sunlight. Do no expose to temperatures exceeding 122°F."
+		},
+		{
+			"code": "P411",
+			".0": "Store at temperatures not exceeding … °C/…°F.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Store at temperatures not exceeding {1} °C.",
+			".2-1": "Store at temperatures not exceeding {2}°F."
 		},
 		{
 			"code": "P411",
@@ -492,6 +518,13 @@
 		},
 		{
 			"code": "P411+P235",
+			".0": "Store at temperatures not exceeding … °C/…°F. Keep cool.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Store at temperatures not exceeding {1} °C/…°F. Keep cool.",
+			".2-1": "Store at temperatures not exceeding {1}°F. Keep cool."
+		},
+		{
+			"code": "P411+P235",
 			".0": "Store at temperatures not exceeding … °C/…°F. Keep cool.",
 			"type": "#note: 2 variants with 1 mandatory parameter each",
 			".1-1": "Store at temperatures not exceeding {1} °C/…°F. Keep cool.",
@@ -499,10 +532,24 @@
 		},
 		{
 			"code": "P412",
+			".0": "Do not expose to temperatures exceeding 50 °C/122°F.",
+			"type": "#note: 2 variants",
+			".1": "Do not expose to temperatures exceeding 50 °C.",
+			".2": "Do not expose to temperatures exceeding 122°F."
+		},
+		{
+			"code": "P412",
 			".0": "Do not expose to temperatures exceeding 50 °C/122°F.",
 			"type": "#note: 2 variants",
 			".1": "Do not expose to temperatures exceeding 50 °C.",
 			".2": "Do not expose to temperatures exceeding 122°F."
+		},
+		{
+			"code": "P413",
+			".0": "Store bulk masses greater than … kg/… lbs at temperatures not exceeding … °C/…°F.",
+			"type": "#note: 2 variants with 2 mandatory parameters each",
+			".1-2": "Store bulk masses greater than {1} kg at temperatures not exceeding {2} °C.",
+			".2-2": "Store bulk masses greater than {1} lbs at temperatures not exceeding {2}°F."
 		},
 		{
 			"code": "P413",

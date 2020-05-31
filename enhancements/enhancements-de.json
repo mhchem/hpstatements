@@ -40,6 +40,13 @@
 		},
 		{
 			"code": "H361",
+			".0": "Kann vermutlich die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen < konkrete Wirkung angebe, n sofern bekannt > <Expositionsweg angeben, sofern schlüssig belegt ist, dass die Gefahr bei keinem anderen Expositionsweg besteht>",
+			"type": "#note: 1 optional parameter",
+			"-0": "Kann vermutlich die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen",
+			"-1": "Kann vermutlich die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen{1}"
+		},
+		{
+			"code": "H361",
 			".0": "Kann vermutlich die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen <konkrete Wirkung angeben, sofern bekannt> <Expositionsweg angeben, sofern schlüssig belegt ist, dass die Gefahr bei keinem anderen Expositionsweg besteht>",
 			"type": "#note: 1 optional parameter",
 			"-0": "Kann vermutlich die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen",
@@ -98,19 +105,19 @@
 			"code": "P220",
 			".0": "Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
 			"type": "#note: 2 variants and 2 variants or 1 parameter",
-			".1.1": "#fixme [create variant 1, variant 1]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
-			".1.2": "#fixme [create variant 1, variant 2]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
-			".1-1": "#fixme [create variant 1, insert parameter {1}]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
-			".2.1": "#fixme [create variant 2, variant 1]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
-			".2.2": "#fixme [create variant 2, variant 1]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren.",
-			".2-1": "#fixme [create variant 2, insert parameter {1}]: Von Kleidung/…/brennbaren Materialien fernhalten/entfernt aufbewahren."
+			".1.1": "Von Kleidung Materialien fernhalten.",
+			".1.2": "Von brennbaren Materialien fernhalten.",
+			".1-1": "Von {1} fernhalten.",
+			".2.1": "Von Kleidung Materialien entfernt aufbewahren.",
+			".2.2": "Von brennbaren Materialien entfernt aufbewahren.",
+			".2-1": "Von {1} entfernt aufbewahren."
 		},
 		{
 			"code": "P221",
 			".0": "Mischen mit brennbaren Stoffen/… unbedingt verhindern.",
 			"type": "#note: 1 variant or 1 parameter",
-			".1": "#fixme [create variant 1]: Mischen mit brennbaren Stoffen/… unbedingt verhindern.",
-			"-1": "#fixme [insert parameter {1}]: Mischen mit brennbaren Stoffen/… unbedingt verhindern."
+			".1": "Mischen mit brennbaren Stoffen unbedingt verhindern.",
+			"-1": "Mischen mit {1} unbedingt verhindern."
 		},
 		{
 			"code": "P230",
@@ -134,12 +141,21 @@
 		},
 		{
 			"code": "P241",
+			".0": "Explosionsgeschützte elektrische Betriebsmittel/Lüftungsanlagen/Beleuchtung/… verwenden.",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "Explosionsgeschützte elektrische Betriebsmittel verwenden.",
+			".2": "Explosionsgeschützte Lüftungsanlagen verwenden.",
+			".3": "Explosionsgeschützte Beleuchtung verwenden.",
+			"-1": "Explosionsgeschützte {1} verwenden."
+		},
+		{
+			"code": "P241",
 			".0": "Explosionsgeschützte elektrische Geräte/Lüftungsanlagen/Beleuchtungsanlagen/… verwenden.",
 			"type": "#note: 3 variants or 1 parameter",
-			".1": "#fixme [create variant 1]: Explosionsgeschützte elektrische Geräte/Lüftungsanlagen/Beleuchtungsanlagen/… verwenden.",
-			".2": "#fixme [create variant 2]: Explosionsgeschützte elektrische Geräte/Lüftungsanlagen/Beleuchtungsanlagen/… verwenden.",
-			".3": "#fixme [create variant 3]: Explosionsgeschützte elektrische Geräte/Lüftungsanlagen/Beleuchtungsanlagen/… verwenden.",
-			"-1": "#fixme [insert parameter {1}]: Explosionsgeschützte elektrische Geräte/Lüftungsanlagen/Beleuchtungsanlagen/… verwenden."
+			".1": "Explosionsgeschützte elektrische Geräte verwenden.",
+			".2": "Explosionsgeschützte Lüftungsanlagen verwenden.",
+			".3": "Explosionsgeschützte Beleuchtungsanlagen/… verwenden.",
+			"-1": "Explosionsgeschützte {1} verwenden."
 		},
 		{
 			"code": "P241",
@@ -154,10 +170,10 @@
 			"code": "P250",
 			".0": "Nicht schleifen/stoßen/…/reiben.",
 			"type": "#note: 3 variants or 1 parameter",
-			".1": "#fixme [create variant 1]: Nicht schleifen/stoßen/…/reiben.",
-			".2": "#fixme [create variant 2]: Nicht schleifen/stoßen/…/reiben.",
-			".3": "#fixme [create variant 3]: Nicht schleifen/stoßen/…/reiben.",
-			"-1": "#fixme [insert parameter {1}]: Nicht schleifen/stoßen/…/reiben."
+			".1": "Nicht schleifen reiben.",
+			".2": "Nicht stoßen/…/reiben.",
+			".3": "Nicht reiben.",
+			"-1": "Nicht {1}."
 		},
 		{
 			"code": "P250",
@@ -191,13 +207,6 @@
 			".6": "Einatmen von Aerosol vermeiden."
 		},
 		{
-			"code": "P263",
-			".0": "Kontakt während der Schwangerschaft/und der Stillzeit vermeiden.",
-			"type": "#note: 2 variants",
-			".1": "#fixme [create variant 1]: Kontakt während der Schwangerschaft/und der Stillzeit vermeiden.",
-			".2": "#fixme [create variant 2]: Kontakt während der Schwangerschaft/und der Stillzeit vermeiden."
-		},
-		{
 			"code": "P264",
 			".0": "Nach Gebrauch … gründlich waschen.",
 			"type": "#note: 1 mandatory parameter",
@@ -214,18 +223,19 @@
 		},
 		{
 			"code": "P282",
-			".0": "Schutzhandschuhe mit Kälteisolierung/Gesichtsschild/Augenschutz tragen.",
+			".0": "Schutzhandschuhe/Gesichtsschild/Augenschutz mit Kälteisolierung tragen.",
 			"type": "#note: 3 variants",
-			".1": "#fixme [create variant 1]: Schutzhandschuhe mit Kälteisolierung/Gesichtsschild/Augenschutz tragen.",
-			".2": "#fixme [create variant 2]: Schutzhandschuhe mit Kälteisolierung/Gesichtsschild/Augenschutz tragen.",
-			".3": "#fixme [create variant 3]: Schutzhandschuhe mit Kälteisolierung/Gesichtsschild/Augenschutz tragen."
+			".1": "Schutzhandschuhe mit Kälteisolierung tragen.",
+			".2": "Gesichtsschild mit Kälteisolierung tragen.",
+			".3": "Augenschutz mit Kälteisolierung tragen."
 		},
 		{
-			"code": "P283",
-			".0": "Schwer entflammbare/flammhemmende Kleidung tragen.",
-			"type": "#note: 2 variants",
-			".1": "#fixme [create variant 1]: Schwer entflammbare/flammhemmende Kleidung tragen.",
-			".2": "#fixme [create variant 2]: Schwer entflammbare/flammhemmende Kleidung tragen."
+			"code": "P282",
+			".0": "Schutzhandschuhe mit Kälteisolierung/Gesichtsschild/Augenschutz tragen.",
+			"type": "#note: 3 variants",
+			".1": "Schutzhandschuhe mit Kälteisolierung tragen.",
+			".2": "Gesichtsschild tragen.",
+			".3": "Augenschutz tragen."
 		},
 		{
 			"code": "P301+P310",
@@ -239,9 +249,9 @@
 			"code": "P301+P312",
 			".0": "BEI VERSCHLUCKEN: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
 			"type": "#note: 2 variants or 1 parameter",
-			".1": "#fixme [create variant 1]: BEI VERSCHLUCKEN: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
-			".2": "#fixme [create variant 2]: BEI VERSCHLUCKEN: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
-			"-1": "#fixme [insert parameter {1}]: BEI VERSCHLUCKEN: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen."
+			".1": "BEI VERSCHLUCKEN: Bei Unwohlsein GIFTINFORMATIONSZENTRUM anrufen.",
+			".2": "Bei Unwohlsein Arzt anrufen.",
+			"-1": "BEI VERSCHLUCKEN: Bei Unwohlsein {1} anrufen."
 		},
 		{
 			"code": "P301+P312",
@@ -253,10 +263,17 @@
 		},
 		{
 			"code": "P302+P334",
+			".0": "BEI KONTAKT MIT DER HAUT: In kaltes Wasser tauchen/nassen Verband anlegen.",
+			"type": "#note: 2 variants",
+			".1": "BEI KONTAKT MIT DER HAUT: In kaltes Wasser tauchen/nassen Verband anlegen.",
+			".2": "BEI KONTAKT MIT DER HAUT: Nassen Verband anlegen."
+		},
+		{
+			"code": "P302+P334",
 			".0": "BEI BERÜHRUNG MIT DER HAUT: In kaltes Wasser tauchen/nassen Verband anlegen.",
 			"type": "#note: 2 variants",
-			".1": "#fixme [create variant 1]: BEI BERÜHRUNG MIT DER HAUT: In kaltes Wasser tauchen/nassen Verband anlegen.",
-			".2": "#fixme [create variant 2]: BEI BERÜHRUNG MIT DER HAUT: In kaltes Wasser tauchen/nassen Verband anlegen."
+			".1": "BEI BERÜHRUNG MIT DER HAUT: In kaltes Wasser tauchen.",
+			".2": "BEI BERÜHRUNG MIT DER HAUT: Nassen Verband anlegen."
 		},
 		{
 			"code": "P302+P335+P334",
@@ -314,9 +331,9 @@
 			"code": "P312",
 			".0": "Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
 			"type": "#note: 2 variants or 1 parameter",
-			".1": "#fixme [create variant 1]: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
-			".2": "#fixme [create variant 2]: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
-			"-1": "#fixme [insert parameter {1}]: Bei Unwohlsein GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen."
+			".1": "Bei Unwohlsein GIFTINFORMATIONSZENTRUM anrufen.",
+			".2": "Bei Unwohlsein Arzt anrufen.",
+			"-1": "Bei Unwohlsein {1} anrufen."
 		},
 		{
 			"code": "P312",
@@ -362,6 +379,13 @@
 			"-2": "Besondere Behandlung (siehe {1}{2})."
 		},
 		{
+			"code": "P322",
+			".0": "Gezielte Maßnahmen (siehe … auf diesem Kennzeichnungsetikett).",
+			"type": "#note: 1 mandatory parameter and noThisLabel option",
+			"-1": "Gezielte Maßnahmen (siehe … auf diesem Kennzeichnungsetikett).",
+			"-2": "Gezielte Maßnahmen (siehe {1}{2})."
+		},
+		{
 			"code": "P332+P313",
 			".0": "Bei Hautreizung: Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
 			"type": "#note: 2 variants",
@@ -379,8 +403,8 @@
 			"code": "P334",
 			".0": "In kaltes Wasser tauchen/nassen Verband anlegen.",
 			"type": "#note: 2 variants",
-			".1": "#fixme [create variant 1]: In kaltes Wasser tauchen/nassen Verband anlegen.",
-			".2": "#fixme [create variant 2]: In kaltes Wasser tauchen/nassen Verband anlegen."
+			".1": "In kaltes Wasser tauchen.",
+			".2": "Nassen Verband anlegen."
 		},
 		{
 			"code": "P334",
@@ -393,8 +417,8 @@
 			"code": "P335+P334",
 			".0": "Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen/nassen Verband anlegen.",
 			"type": "#note: 2 variants",
-			".1": "#fixme [create variant 1]: Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen/nassen Verband anlegen.",
-			".2": "#fixme [create variant 2]: Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen/nassen Verband anlegen."
+			".1": "Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen.",
+			".2": "Lose Partikel von der Haut abbürsten. Nassen Verband anlegen."
 		},
 		{
 			"code": "P336+P315",
@@ -454,7 +478,7 @@
 			"code": "P401",
 			".0": "… aufbewahren.",
 			"type": "#note: 1 mandatory parameter",
-			"-1": "#fixme [insert parameter {1}]: … aufbewahren."
+			"-1": "{1} aufbewahren."
 		},
 		{
 			"code": "P401",
@@ -466,8 +490,15 @@
 			"code": "P406",
 			".0": "In korrosionsbeständigem/… Behälter mit widerstandsfähiger Innenauskleidung aufbewahren.",
 			"type": "#note: 1 variant or 1 parameter",
-			".1": "#fixme [create variant 1]: In korrosionsbeständigem/… Behälter mit widerstandsfähiger Innenauskleidung aufbewahren.",
-			"-1": "#fixme [insert parameter {1}]: In korrosionsbeständigem/… Behälter mit widerstandsfähiger Innenauskleidung aufbewahren."
+			".1": "In korrosionsbeständigem Behälter mit widerstandsfähiger Innenauskleidung aufbewahren.",
+			"-1": "In {1}Behälter mit widerstandsfähiger Innenauskleidung aufbewahren."
+		},
+		{
+			"code": "P406",
+			".0": "In korrosionsbeständigem/… Behälter mit korrosionsbeständiger Auskleidung aufbewahren.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "In korrosionsbeständigem Behälter mit korrosionsbeständiger Auskleidung aufbewahren.",
+			"-1": "In {1}Behälter mit korrosionsbeständiger Auskleidung aufbewahren."
 		},
 		{
 			"code": "P406",
@@ -478,10 +509,38 @@
 		},
 		{
 			"code": "P410+P412",
+			".0": "Vor Sonnenbestrahlung schützen und nicht Temperaturen von mehr als 50 °C aussetzen.",
+			"type": "#note: 2 variants",
+			".1": "Vor Sonnenbestrahlung schützen und nicht Temperaturen von mehr als 50 °C aussetzen.",
+			".2": "Vor Sonnenbestrahlung schützen und nicht Temperaturen von mehr als 122 °C aussetzen."
+		},
+		{
+			"code": "P410+P412",
+			".0": "Vor Sonnenbestrahlung schützen und nicht Temperaturen von mehr als 50 °C aussetzen.",
+			"type": "#note: 2 variants",
+			".1": "Vor Sonnenbestrahlung schützen und nicht Temperaturen von mehr als 50 °C aussetzen.",
+			".2": "Vor Sonnenbestrahlung schützen und nicht Temperaturen von mehr als 122 °C aussetzen."
+		},
+		{
+			"code": "P410+P412",
 			".0": "Vor Sonnenbestrahlung schützen und nicht Temperaturen über 50 °C/122 °F aussetzen.",
 			"type": "#note: 2 variants",
 			".1": "Vor Sonnenbestrahlung schützen und nicht Temperaturen über 50 °C aussetzen.",
 			".2": "Vor Sonnenbestrahlung schützen und nicht Temperaturen über 122 °F aussetzen."
+		},
+		{
+			"code": "P411",
+			".0": "Bei Temperaturen von nicht mehr als … °C/…aufbewahren.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Bei Temperaturen von nicht mehr als {1} °C aufbewahren.",
+			".2-1": "Bei Temperaturen von nicht mehr als {1} °F aufbewahren."
+		},
+		{
+			"code": "P411",
+			".0": "Bei Temperaturen von nicht mehr als … °C/…aufbewahren.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Bei Temperaturen von nicht mehr als {1} °C aufbewahren.",
+			".2-1": "Bei Temperaturen von nicht mehr als {1} °F aufbewahren."
 		},
 		{
 			"code": "P411",
@@ -492,6 +551,20 @@
 		},
 		{
 			"code": "P411+P235",
+			".0": "Kühl und bei Temperaturen von nicht mehr als … °C aufbewahren.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Kühl und bei Temperaturen von nicht mehr als {1} °C aufbewahren.",
+			".2-1": "Kühl und bei Temperaturen von nicht mehr als {1} °F aufbewahren."
+		},
+		{
+			"code": "P411+P235",
+			".0": "Kühl und bei Temperaturen von nicht mehr als … °C aufbewahren.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Kühl und bei Temperaturen von nicht mehr als {1} °C aufbewahren.",
+			".2-1": "Kühl und bei Temperaturen von nicht mehr als {1} °F aufbewahren."
+		},
+		{
+			"code": "P411+P235",
 			".0": "Bei Temperaturen nicht über … °C/… °F aufbewahren. Kühl halten.",
 			"type": "#note: 2 variants with 1 mandatory parameter each",
 			".1-1": "Bei Temperaturen nicht über {1} °C aufbewahren. Kühl halten.",
@@ -499,10 +572,38 @@
 		},
 		{
 			"code": "P412",
+			".0": "Nicht Temperaturen von mehr als 50 °C aussetzen.",
+			"type": "#note: 2 variants",
+			".1": "Nicht Temperaturen von mehr als 50 °C aussetzen.",
+			".2": "Nicht Temperaturen von mehr als 122 °F aussetzen."
+		},
+		{
+			"code": "P412",
+			".0": "Nicht Temperaturen von mehr als 50 °C aussetzen.",
+			"type": "#note: 2 variants",
+			".1": "Nicht Temperaturen von mehr als 50 °C aussetzen.",
+			".2": "Nicht Temperaturen von mehr als 122 °F aussetzen."
+		},
+		{
+			"code": "P412",
 			".0": "Nicht Temperaturen über 50 °C/122 °F aussetzen.",
 			"type": "#note: 2 variants",
 			".1": "Nicht Temperaturen über 50 °C aussetzen.",
 			".2": "Nicht Temperaturen über 122 °F aussetzen."
+		},
+		{
+			"code": "P413",
+			".0": "Schüttgut in Mengen von mehr als … kg bei Temperaturen von nicht mehr als … °C aufbewahren",
+			"type": "#note: 2 variants with 2 mandatory parameters each",
+			".1-2": "Schüttgut in Mengen von mehr als {1} kg bei Temperaturen von nicht mehr als … °C aufbewahren",
+			".2-2": "Schüttgut in Mengen von mehr als {1} lbs bei Temperaturen von nicht mehr als … °F aufbewahren"
+		},
+		{
+			"code": "P413",
+			".0": "Schüttgut in Mengen von mehr als … kg bei Temperaturen von nicht mehr als … °C aufbewahren",
+			"type": "#note: 2 variants with 2 mandatory parameters each",
+			".1-2": "Schüttgut in Mengen von mehr als {1} kg bei Temperaturen von nicht mehr als … °C aufbewahren",
+			".2-2": "Schüttgut in Mengen von mehr als {1} lbs bei Temperaturen von nicht mehr als … °F aufbewahren"
 		},
 		{
 			"code": "P413",
