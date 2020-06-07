@@ -33,7 +33,7 @@ Version | Listing Page | Comment
 2011-04-19 | <http://data.europa.eu/eli/reg/2008/1272/2011-04-19>
 2013-12-01 | <http://data.europa.eu/eli/reg/2008/1272/2013-12-01> | No changes for statements
 2015-01-01 | <http://data.europa.eu/eli/reg/2008/1272/2015-01-01> | No changes for statements
-2015-06-01 | <http://data.europa.eu/eli/reg/2008/1272/2015-06-01> 
+2015-06-01 | <http://data.europa.eu/eli/reg/2008/1272/2015-06-01>
 2016-01-01 | <http://data.europa.eu/eli/reg/2008/1272/2016-01-01> |
 2016-04-01 | <http://data.europa.eu/eli/reg/2008/1272/2016-04-01> | No changes for statements
 2017-01-01 | <http://data.europa.eu/eli/reg/2008/1272/2017-01-01> |
@@ -43,7 +43,8 @@ Version | Listing Page | Comment
 2019-07-26 | <http://data.europa.eu/eli/reg/2008/1272/2019-07-26> | No changes for statements, except for LT
 2019-12-01 | <http://data.europa.eu/eli/reg/2008/1272/2019-12-01> | No changes for statements
 2020-01-01 | <http://data.europa.eu/eli/reg/2008/1272/2020-01-01> | No changes for statements
+2020-05-01 | <http://data.europa.eu/eli/reg/2008/1272/2020-05-01> | No changes for statements
 
-All listing pages had a footer "Legal notice", linking to <https://eur-lex.europa.eu/content/legal-notice/legal-notice.html>, applying the [Creative Commons Attribution 4.0 International licence​​](https://creativecommons.org/licenses/by/4.0/).
+All listing pages had a footer "Legal notice", linking to <https://eur-lex.europa.eu/content/legal-notice/legal-notice.html>, applying the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/).
 
 The consolidated version of [2009-01-20](http://data.europa.eu/eli/reg/2008/1272/2009-01-20) was not included, because it only exists in Danish (da). Hungarian (hr) did not exist before 2015. Irish (ga) is incomplete since 2010.
