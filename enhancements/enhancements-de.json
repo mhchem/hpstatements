@@ -488,17 +488,17 @@
 		},
 		{
 			"code": "P406",
-			".0": "In korrosionsbeständigem/… Behälter mit widerstandsfähiger Innenauskleidung aufbewahren.",
-			"type": "#note: 1 variant or 1 parameter",
-			".1": "In korrosionsbeständigem Behälter mit widerstandsfähiger Innenauskleidung aufbewahren.",
-			"-1": "In {1}Behälter mit widerstandsfähiger Innenauskleidung aufbewahren."
-		},
-		{
-			"code": "P406",
 			".0": "In korrosionsbeständigem/… Behälter mit korrosionsbeständiger Auskleidung aufbewahren.",
 			"type": "#note: 1 variant or 1 parameter",
 			".1": "In korrosionsbeständigem Behälter mit korrosionsbeständiger Auskleidung aufbewahren.",
 			"-1": "In {1}Behälter mit korrosionsbeständiger Auskleidung aufbewahren."
+		},
+		{
+			"code": "P406",
+			".0": "In korrosionsbeständigem/… Behälter mit widerstandsfähiger Innenauskleidung aufbewahren.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "In korrosionsbeständigem Behälter mit widerstandsfähiger Innenauskleidung aufbewahren.",
+			"-1": "In {1}Behälter mit widerstandsfähiger Innenauskleidung aufbewahren."
 		},
 		{
 			"code": "P406",

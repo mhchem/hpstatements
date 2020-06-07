@@ -815,6 +815,9 @@
 		"latest/de/P370+P378.0": "Bei Brand: … zum Löschen verwenden.",
 		"latest/de/P370+P378-1": "Bei Brand: {1} zum Löschen verwenden.",
 		"latest/de/P370+P380+P375": "Bei Brand: Umgebung räumen. Wegen Explosionsgefahr Brand aus der Entfernung bekämpfen.",
+		"latest/de/P370+P380+P375+P378": "#note: 1 mandatory parameter",
+		"latest/de/P370+P380+P375+P378.0": "Bei Brand: Umgebung räumen. Wegen Explosionsgefahr Brand aus der Entfernung bekämpfen. … zum Löschen verwenden.",
+		"latest/de/P370+P380+P375+P378-1": "Bei Brand: Umgebung räumen. Wegen Explosionsgefahr Brand aus der Entfernung bekämpfen. {1} zum Löschen verwenden.",
 		"latest/de/P371+P380+P375": "Bei Großbrand und großen Mengen: Umgebung räumen. Wegen Explosionsgefahr Brand aus der Entfernung bekämpfen.",
 		"latest/de/P401": "#note: 1 mandatory parameter",
 		"latest/de/P401.0": "Aufbewahren gemäß … .",
@@ -855,9 +858,6 @@
 		"latest/de/P501.0-1": "Inhalt/Behälter {1} zuführen.",
 		"latest/de/P501.1-1": "Inhalt {1} zuführen.",
 		"latest/de/P501.2-1": "Behälter {1} zuführen.",
-		"latest/de/P502": "Informationen zur Wiederverwendung oder Wiederverwertung beim Hersteller oder Lieferanten erfragen.",
-		"latest/de/P370+P380+P375+P378": "#note: 1 mandatory parameter",
-		"latest/de/P370+P380+P375+P378.0": "Bei Brand: Umgebung räumen. Wegen Explosionsgefahr Brand aus der Entfernung bekämpfen. … zum Löschen verwenden.",
-		"latest/de/P370+P380+P375+P378-1": "Bei Brand: Umgebung räumen. Wegen Explosionsgefahr Brand aus der Entfernung bekämpfen. {1} zum Löschen verwenden."
+		"latest/de/P502": "Informationen zur Wiederverwendung oder Wiederverwertung beim Hersteller oder Lieferanten erfragen."
 	}
 }

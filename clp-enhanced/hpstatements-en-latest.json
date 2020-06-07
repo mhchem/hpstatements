@@ -815,6 +815,9 @@
 		"latest/en/P370+P378.0": "In case of fire: Use… to extinguish.",
 		"latest/en/P370+P378-1": "In case of fire: Use {1} to extinguish.",
 		"latest/en/P370+P380+P375": "In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion.",
+		"latest/en/P370+P380+P375+P378": "#note: 1 mandatory parameter",
+		"latest/en/P370+P380+P375+P378.0": "In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion. Use … to extinguish.",
+		"latest/en/P370+P380+P375+P378-1": "In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion. Use {1} to extinguish.",
 		"latest/en/P371+P380+P375": "In case of major fire and large quantities: Evacuate area. Fight fire remotely due to the risk of explosion.",
 		"latest/en/P401": "#note: 1 mandatory parameter",
 		"latest/en/P401.0": "Store in accordance with… .",
@@ -855,9 +858,6 @@
 		"latest/en/P501.0-1": "Dispose of contents/container to {1}",
 		"latest/en/P501.1-1": "Dispose of contents to {1}",
 		"latest/en/P501.2-1": "Dispose of container to {1}",
-		"latest/en/P502": "Refer to manufacturer or supplier for information on recovery or recycling.",
-		"latest/en/P370+P380+P375+P378": "#note: 1 mandatory parameter",
-		"latest/en/P370+P380+P375+P378.0": "In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion. Use … to extinguish.",
-		"latest/en/P370+P380+P375+P378-1": "In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion. Use {1} to extinguish."
+		"latest/en/P502": "Refer to manufacturer or supplier for information on recovery or recycling."
 	}
 }
