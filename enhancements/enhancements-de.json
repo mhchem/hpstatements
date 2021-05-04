@@ -1,6 +1,6 @@
 {
 	"_licenseLong": "This document contains data extracted from <https://eur-lex.europa.eu>, enhanced by individual contributors. This work is licensed under the Creative Commons Attribution 4.0 International licence​​ (<https://creativecommons.org/licenses/by/4.0/>). This means that you can re-use the content provided you acknowledge the source and indicate any changes you have made. The data is not necessarily comprehensive, complete, accurate or up to date. The acknowledgement is not needed when using statements of the data set for labelling products, of course, as this is the intended usage.",
-	"_licenseShort": "© European Union, https://eur-lex.europa.eu, 1998-2020, CC BY 4.0, © hpstatements contributors, https://github.com/mhchem/hpstatements/contributors, 2019-2020, CC BY 4.0",
+	"_licenseShort": "© European Union, https://eur-lex.europa.eu, 1998-2020, CC BY 4.0, © hpstatements contributors, https://github.com/mhchem/hpstatements/contributors, 2019-2021, CC BY 4.0",
 	"_source": "https://github.com/mhchem/hpstatements",
 	"enhancements": [
 		{
@@ -305,13 +305,6 @@
 			"-1": "BEI Exposition oder falls betroffen: {1} anrufen."
 		},
 		{
-			"code": "P308+P313",
-			".0": "BEI Exposition oder falls betroffen: Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
-			"type": "#note: 2 variants",
-			".1": "BEI Exposition oder falls betroffen: Ärztlichen Rat einholen.",
-			".2": "BEI Exposition oder falls betroffen: Ärztliche Hilfe hinzuziehen."
-		},
-		{
 			"code": "P310",
 			".0": "Sofort GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.",
 			"type": "#note: 2 variants or 1 parameter",
@@ -344,27 +337,6 @@
 			"-1": "Bei Unwohlsein {1} anrufen."
 		},
 		{
-			"code": "P313",
-			".0": "Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
-			"type": "#note: 2 variants",
-			".1": "Ärztlichen Rat einholen.",
-			".2": "ärztliche Hilfe hinzuziehen."
-		},
-		{
-			"code": "P314",
-			".0": "Bei Unwohlsein ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
-			"type": "#note: 2 variants",
-			".1": "Bei Unwohlsein ärztlichen Rat einholen.",
-			".2": "Bei Unwohlsein ärztliche Hilfe hinzuziehen."
-		},
-		{
-			"code": "P315",
-			".0": "Sofort ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
-			"type": "#note: 2 variants",
-			".1": "Sofort ärztlichen Rat einholen.",
-			".2": "Sofort ärztliche Hilfe hinzuziehen."
-		},
-		{
 			"code": "P320",
 			".0": "Besondere Behandlung dringend erforderlich (siehe … auf diesem Kennzeichnungsetikett).",
 			"type": "#note: 1 mandatory parameter and noThisLabel option",
@@ -386,20 +358,6 @@
 			"-2": "Gezielte Maßnahmen (siehe {1}{2})."
 		},
 		{
-			"code": "P332+P313",
-			".0": "Bei Hautreizung: Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
-			"type": "#note: 2 variants",
-			".1": "Bei Hautreizung: Ärztlichen Rat einholen.",
-			".2": "Bei Hautreizung: Ärztliche Hilfe hinzuziehen."
-		},
-		{
-			"code": "P333+P313",
-			".0": "Bei Hautreizung oder -ausschlag: Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
-			"type": "#note: 2 variants",
-			".1": "Bei Hautreizung oder -ausschlag: Ärztlichen Rat einholen.",
-			".2": "Bei Hautreizung oder -ausschlag: Ärztliche Hilfe hinzuziehen."
-		},
-		{
 			"code": "P334",
 			".0": "In kaltes Wasser tauchen/nassen Verband anlegen.",
 			"type": "#note: 2 variants",
@@ -419,20 +377,6 @@
 			"type": "#note: 2 variants",
 			".1": "Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen.",
 			".2": "Lose Partikel von der Haut abbürsten. Nassen Verband anlegen."
-		},
-		{
-			"code": "P336+P315",
-			".0": "Vereiste Bereiche mit lauwarmem Wasser auftauen. Betroffenen Bereich nicht reiben. Sofort ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
-			"type": "#note: 2 variants",
-			".1": "Vereiste Bereiche mit lauwarmem Wasser auftauen. Betroffenen Bereich nicht reiben. Sofort ärztlichen Rat einholen.",
-			".2": "Vereiste Bereiche mit lauwarmem Wasser auftauen. Betroffenen Bereich nicht reiben. Sofort ärztliche Hilfe hinzuziehen."
-		},
-		{
-			"code": "P337+P313",
-			".0": "Bei anhaltender Augenreizung: Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen.",
-			"type": "#note: 2 variants",
-			".1": "Bei anhaltender Augenreizung: Ärztlichen Rat einholen.",
-			".2": "Bei anhaltender Augenreizung: Ärztliche Hilfe hinzuziehen."
 		},
 		{
 			"code": "P342+P311",

@@ -1,6 +1,6 @@
 {
 	"_licenseLong": "This document contains data extracted from <https://eur-lex.europa.eu>, enhanced by individual contributors. This work is licensed under the Creative Commons Attribution 4.0 International licence​​ (<https://creativecommons.org/licenses/by/4.0/>). This means that you can re-use the content provided you acknowledge the source and indicate any changes you have made. The data is not necessarily comprehensive, complete, accurate or up to date. The acknowledgement is not needed when using statements of the data set for labelling products, of course, as this is the intended usage.",
-	"_licenseShort": "© European Union, https://eur-lex.europa.eu, 1998-2020, CC BY 4.0, © hpstatements contributors, https://github.com/mhchem/hpstatements/contributors, 2019-2020, CC BY 4.0",
+	"_licenseShort": "© European Union, https://eur-lex.europa.eu, 1998-2020, CC BY 4.0, © hpstatements contributors, https://github.com/mhchem/hpstatements/contributors, 2019-2021, CC BY 4.0",
 	"_source": "https://github.com/mhchem/hpstatements",
 	"enhancements": [
 		{
@@ -281,13 +281,6 @@
 			"-1": "IF exposed or concerned: Call {1}"
 		},
 		{
-			"code": "P308+P313",
-			".0": "IF exposed or concerned: Get medical advice/attention.",
-			"type": "#note: 2 variants",
-			".1": "IF exposed or concerned: Get medical advice.",
-			".2": "IF exposed or concerned: Get medical attention."
-		},
-		{
 			"code": "P310",
 			".0": "Immediately call a POISON CENTER/doctor/…",
 			"type": "#note: 2 variants or 1 parameter",
@@ -320,27 +313,6 @@
 			"-1": "Call {1} if you feel unwell."
 		},
 		{
-			"code": "P313",
-			".0": "Get medical advice/attention.",
-			"type": "#note: 2 variants",
-			".1": "Get medical advice.",
-			".2": "Get medical attention."
-		},
-		{
-			"code": "P314",
-			".0": "Get medical advice/attention if you feel unwell.",
-			"type": "#note: 2 variants",
-			".1": "Get medical advice if you feel unwell.",
-			".2": "Get medical attention if you feel unwell."
-		},
-		{
-			"code": "P315",
-			".0": "Get immediate medical advice/attention.",
-			"type": "#note: 2 variants",
-			".1": "Get immediate medical advice.",
-			".2": "Get immediate medical attention."
-		},
-		{
 			"code": "P320",
 			".0": "Specific treatment is urgent (see … on this label).",
 			"type": "#note: 1 mandatory parameter and noThisLabel option",
@@ -362,20 +334,6 @@
 			"-2": "Specific measures (see {1}{2})."
 		},
 		{
-			"code": "P332+P313",
-			".0": "If skin irritation occurs: Get medical advice/attention.",
-			"type": "#note: 2 variants",
-			".1": "If skin irritation occurs: Get medical advice/.",
-			".2": "If skin irritation occurs: Get medical attention."
-		},
-		{
-			"code": "P333+P313",
-			".0": "If skin irritation or rash occurs: Get medical advice/attention.",
-			"type": "#note: 2 variants",
-			".1": "#If skin irritation or rash occurs: Get medical advice.",
-			".2": "If skin irritation or rash occurs: Get medical attention."
-		},
-		{
 			"code": "P334",
 			".0": "Immerse in cool water/wrap in wet bandages.",
 			"type": "#note: 2 variants",
@@ -395,20 +353,6 @@
 			"type": "#note: 2 variants",
 			".1": "Brush off loose particles from skin. Immerse in cool water.",
 			".2": "Brush off loose particles from skin. Wrap in wet bandages."
-		},
-		{
-			"code": "P336+P315",
-			".0": "Thaw frosted parts with lukewarm water. Do not rub affected area. Get immediate medical advice/attention.",
-			"type": "#note: 2 variants",
-			".1": "Thaw frosted parts with lukewarm water. Do not rub affected area. Get immediate medical advice.",
-			".2": "Thaw frosted parts with lukewarm water. Do not rub affected area. Get immediate medical attention."
-		},
-		{
-			"code": "P337+P313",
-			".0": "If eye irritation persists: Get medical advice/attention.",
-			"type": "#note: 2 variants",
-			".1": "If eye irritation persists: Get medical advice.",
-			".2": "If eye irritation persists: Get medical attention."
 		},
 		{
 			"code": "P342+P311",
