@@ -17,6 +17,8 @@ The format should be self-explanatory.
  
 These files are also served via GitHub pages, e.g. <https://mhchem.github.io/hpstatements/clp/hpstatements-en-latest.json>. URLs are listed in the files themselves.
 
+The following languages are included: Bulgarian (bg), Czech (cs), Danish (da), German (de), Greek (el), English (en), Spanish (es), Estonian (et), Finnish (fi), French (fr), Irish (ga), Croatian (hr), Hungarian (hu), Italian (it), Lithuanian (lt), Latvian (lv), Maltese (mt), Dutch (nl), Polish (pl), Portuguese (pt), Romanian (ro), Slovak (sk), Slovenian (sl), Swedish (sv).
+
 
 
 ## Disclaimer and Copyright Notice
