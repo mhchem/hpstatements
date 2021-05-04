@@ -76,8 +76,8 @@
 			"type": "#note: 2 optional parameters",
 			"-0": "Schädigt die Organe bei längerer oder wiederholter Exposition.",
 			"-1": "Schädigt {1} bei längerer oder wiederholter Exposition.",
-			"-2": "Schädigt die Organe bei längerer oder wiederholter Exposition{2}.",
-			"-3": "Schädigt {1} bei längerer oder wiederholter Exposition{2}."
+			"-2": "Schädigt die Organe{2}.",
+			"-3": "Schädigt {1}{2}."
 		},
 		{
 			"code": "H373",
@@ -85,8 +85,8 @@
 			"type": "#note: 2 optional parameters",
 			"-0": "Kann die Organe schädigen bei längerer oder wiederholter Exposition.",
 			"-1": "Kann {1} schädigen bei längerer oder wiederholter Exposition.",
-			"-2": "Kann die Organe schädigen bei längerer oder wiederholter Exposition{2}.",
-			"-3": "Kann {1} schädigen bei längerer oder wiederholter Exposition{2}."
+			"-2": "Kann die Organe schädigen{2}.",
+			"-3": "Kann {1} schädigen{2}."
 		},
 		{
 			"code": "EUH018",
