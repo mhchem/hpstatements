@@ -76,8 +76,8 @@
 			"type": "#note: 2 optional parameters",
 			"-0": "Causes damage to organs through prolonged or repeated exposure.",
 			"-1": "Causes damage to {1} through prolonged or repeated exposure.",
-			"-2": "Causes damage to organs through prolonged or repeated exposure{2}.",
-			"-3": "Causes damage to {1} through prolonged or repeated exposure{2}."
+			"-2": "Causes damage to organs{2}.",
+			"-3": "Causes damage to {1}{2}."
 		},
 		{
 			"code": "H373",
@@ -85,7 +85,7 @@
 			"type": "#note: 2 optional parameters",
 			"-0": "May cause damage to organs through prolonged or repeated exposure.",
 			"-1": "May cause damage to {1} through prolonged or repeated exposure.",
-			"-2": "May cause damage to organs through prolonged or repeated exposure{2}.",
+			"-2": "May cause damage to organs{2}.",
 			"-3": "May cause damage to {1}{2}."
 		},
 		{
@@ -464,14 +464,14 @@
 			"code": "P411+P235",
 			".0": "Store at temperatures not exceeding … °C/…°F. Keep cool.",
 			"type": "#note: 2 variants with 1 mandatory parameter each",
-			".1-1": "Store at temperatures not exceeding {1} °C/…°F. Keep cool.",
+			".1-1": "Store at temperatures not exceeding {1} °C. Keep cool.",
 			".2-1": "Store at temperatures not exceeding {1}°F. Keep cool."
 		},
 		{
 			"code": "P411+P235",
 			".0": "Store at temperatures not exceeding … °C/…°F. Keep cool.",
 			"type": "#note: 2 variants with 1 mandatory parameter each",
-			".1-1": "Store at temperatures not exceeding {1} °C/…°F. Keep cool.",
+			".1-1": "Store at temperatures not exceeding {1} °C. Keep cool.",
 			".2-1": "Store at temperatures not exceeding {1}°F. Keep cool."
 		},
 		{
