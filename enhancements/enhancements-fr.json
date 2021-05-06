@@ -1,0 +1,513 @@
+{
+	"_licenseLong": "This document contains data extracted from <https://eur-lex.europa.eu>, enhanced by individual contributors. This work is licensed under the Creative Commons Attribution 4.0 International licence​​ (<https://creativecommons.org/licenses/by/4.0/>). This means that you can re-use the content provided you acknowledge the source and indicate any changes you have made. The data is not necessarily comprehensive, complete, accurate or up to date. The acknowledgement is not needed when using statements of the data set for labelling products, of course, as this is the intended usage.",
+	"_licenseShort": "© European Union, https://eur-lex.europa.eu, 1998-2020, CC BY 4.0, © hpstatements contributors, https://github.com/mhchem/hpstatements/contributors, 2019-2020, CC BY 4.0",
+	"_source": "https://github.com/mhchem/hpstatements",
+	"enhancements": [
+		{
+			"code": "H340",
+			".0": "Peut induire des anomalies génétiques <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Peut induire des anomalies génétiques.",
+			"-1": "Peut induire des anomalies génétiques{1}."
+		},
+		{
+			"code": "H341",
+			".0": "Susceptible d'induire des anomalies génétiques <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Susceptible d'induire des anomalies génétiques.",
+			"-1": "Susceptible d'induire des anomalies génétiques{1}."
+		},
+		{
+			"code": "H350",
+			".0": "Peut provoquer le cancer <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Peut provoquer le cancer.",
+			"-1": "Peut provoquer le cancer{1}."
+		},
+		{
+			"code": "H351",
+			".0": "Susceptible de provoquer le cancer <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Susceptible de provoquer le cancer.",
+			"-1": "Susceptible de provoquer le cancer{1}."
+		},
+		{
+			"code": "H360",
+			".0": "Peut nuire à la fertilité ou au fœtus <indiquer l'effet spécifique s'il est connu> <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Peut nuire à la fertilité ou au fœtus.",
+			"-1": "Peut nuire à la fertilité ou au fœtus{1}."
+		},
+		{
+			"code": "H361",
+			".0": "Susceptible de nuire à la fertilité ou au fœtus <indiquer l'effet s'il est connu> <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
+			"type": "#note: 1 optional parameter",
+			"-0": "Susceptible de nuire à la fertilité ou au fœtus.",
+			"-1": "Susceptible de nuire à la fertilité ou au fœtus{1}."
+		},
+		{
+			"code": "H370",
+			".0": "Risque avéré d'effets graves pour les organes <ou indiquer tous les organes affectés, s'ils sont connus> <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "Risque avéré d'effets graves pour les organes.",
+			"-1": "Risque avéré d'effets graves pour {1}.",
+			"-2": "Risque avéré d'effets graves pour les organes{2}.",
+			"-3": "Risque avéré d'effets graves pour {1}{2}."
+		},
+		{
+			"code": "H371",
+			".0": "Risque présumé d'effets graves pour les organes <ou indiquer tous les organes affectés, s'ils sont connus> <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "Risque présumé d'effets graves pour les organes.",
+			"-1": "Risque présumé d'effets graves pour {1}.",
+			"-2": "Risque présumé d'effets graves pour les organes{2}.",
+			"-3": "Risque présumé d'effets graves pour {1}{2}."
+		},
+		{
+			"code": "H372",
+			".0": "Risque avéré d'effets graves pour les organes <indiquer tous les organes affectés, s'ils sont connus> à la suite d'expositions répétées ou d'une exposition prolongée <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "Risque avéré d'effets graves pour les organes à la suite d'expositions répétées ou d'une exposition prolongée.",
+			"-1": "Risque avéré d'effets graves pour {1} à la suite d'expositions répétées ou d'une exposition prolongée.",
+			"-2": "Risque avéré d'effets graves pour les organes{2}.",
+			"-3": "Risque avéré d'effets graves pour {1}{2}."
+		},
+		{
+			"code": "H373",
+			".0": "Risque présumé d'effets graves pour les organes <ou indiquer tous les organes affectés, s'ils sont connus> à la suite d'expositions répétées ou d'une exposition prolongée <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
+			"type": "#note: 2 optional parameters",
+			"-0": "Risque présumé d'effets graves pour les organes à la suite d'expositions répétées ou d'une exposition prolongée.",
+			"-1": "Risque présumé d'effets graves pour {1} à la suite d'expositions répétées ou d'une exposition prolongée.",
+			"-2": "Risque présumé d'effets graves pour les organes{2}.",
+			"-3": "Risque présumé d'effets graves pour {1}{2}."
+		},
+		{
+			"code": "EUH018",
+			".0": "Lors de l'utilisation, formation possible de mélange vapeur-air inflammable/explosif.",
+			"type": "#note: 2 variants",
+			".1": "Lors de l'utilisation, formation possible de mélange vapeur-air inflammable.",
+			".2": "Lors de l'utilisation, formation possible de mélange vapeur-air explosif."
+		},
+		{
+			"code": "EUH208",
+			".0": "Contient <nom de la substance sensibilisante>. Peut produire une réaction allergique.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Contient {1}. Peut produire une réaction allergique."
+		},
+		{
+			"code": "P220",
+			".0": "Tenir/stocker à l’écart des vêtements/…/matières combustibles",
+			"type": "#note: 2 variants and 2 variants or 1 parameter",
+			".1.1": "Tenir à l'écart des vêtements.",
+			".1.2": "Tenir à l'écart des matières combustibles.",
+			".1-1": "Tenir à l'écart {1}.",
+			".2.1": "Stocker à l'écart des vêtements.",
+			".2.2": "Stocker à l'écart des matières combustibles.",
+			".2-1": "Stocker à l'écart {1}."
+		},
+		{
+			"code": "P221",
+			".0": "Prendre toutes précautions pour éviter de mélanger avec des matières combustibles…",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Prendre toutes précautions pour éviter de mélanger avec des matières combustibles.",
+			"-1": "Prendre toutes précautions pour éviter de mélanger avec {1}"
+		},
+		{
+			"code": "P230",
+			".0": "Maintenir humidifié avec…",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Maintenir humidifié avec {1}"
+		},
+		{
+			"code": "P231",
+			".0": "Manipuler et stocker le contenu sous gaz inerte/…",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Manipuler et stocker le contenu sous gaz inerte",
+			"-1": "Manipuler et stocker le contenu sous {1}"
+		},
+		{
+			"code": "P231+P232",
+			".0": "Manipuler et stocker le contenu sous gaz inerte/… Protéger de l'humidité.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Manipuler et stocker le contenu sous gaz inerte. Protéger de l'humidité.",
+			"-1": "Manipuler et stocker le contenu sous {1}. Protéger de l'humidité."
+		},
+		{
+			"code": "P241",
+			".0": "Utiliser du matériel électrique/de ventilation/d’éclairage/…/antidéflagrant.",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "Utiliser du matériel électrique antidéflagrant.",
+			".2": "Utiliser du matériel de ventilation antidéflagrant.",
+			".3": "Utiliser du matériel d'éclairage antidéflagrant.",
+			"-1": "Utiliser du matériel {1} antidéflagrant."
+		},
+		{
+			"code": "P241",
+			".0": "Utiliser du matériel [électrique/de ventilation/d'éclairage/…] antidéflagrant.",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "Utiliser du matériel électrique antidéflagrant.",
+			".2": "Utiliser du matériel de ventilation antidéflagrant.",
+			".3": "Utiliser du matériel d'éclairage antidéflagrant.",
+			"-1": "Utiliser du matériel {1} antidéflagrant."
+		},
+		{
+			"code": "P250",
+			".0": "Éviter les abrasions/les chocs/…/les frottements.",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "Éviter les abrasions.",
+			".2": "Éviter les chocs.",
+			".3": "Éviter les frottements.",
+			"-1": "Éviter {1}."
+		},
+		{
+			"code": "P250",
+			".0": "Éviter les abrasions/les chocs/les frottements/… .",
+			"type": "#note: 3 variants or 1 parameter",
+			".1": "Éviter les abrasions.",
+			".2": "Éviter les chocs.",
+			".3": "Éviter les frottements.",
+			"-1": "Éviter {1}."
+		},
+		{
+			"code": "P260",
+			".0": "Ne pas respirer les poussières/fumées/gaz/brouillards/vapeurs/aérosols.",
+			"type": "#note: 6 variants",
+			".1": "Ne pas respirer les poussières.",
+			".2": "Ne pas respirer les fumées.",
+			".3": "Ne pas respirer les gaz.",
+			".4": "Ne pas respirer les brouillards.",
+			".5": "Ne pas respirer les vapeurs.",
+			".6": "Ne pas respirer les aérosols."
+		},
+		{
+			"code": "P261",
+			".0": "Éviter de respirer les poussières/fumées/gaz/brouillards/vapeurs/aérosols.",
+			"type": "#note: 6 variants",
+			".1": "Éviter de respirer les poussières.",
+			".2": "Éviter de respirer les fumées.",
+			".3": "Éviter de respirer les gaz.",
+			".4": "Éviter de respirer les brouillards.",
+			".5": "Éviter de respirer les vapeurs.",
+			".6": "Éviter de respirer les aérosols."
+		},
+		{
+			"code": "P264",
+			".0": "Se laver … soigneusement après manipulation.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Se laver {1} soigneusement après manipulation."
+		},
+		{
+			"code": "P280",
+			".0": "Porter des gants de protection/des vêtements de protection/un équipement de protection des yeux/du visage.",
+			"type": "#note: 4 variants",
+			".1": "Porter des gants de protection.",
+			".2": "Porter des vêtements de protection",
+			".3": "Porter un équipement de protection des yeux.",
+			".4": "Porter un équipement de protection du visage."
+		},
+		{
+			"code": "P282",
+			".0": "Porter des gants isolants contre le froid/un équipement de protection du visage/des yeux.",
+			"type": "#note: 3 variants",
+			".1": "Porter des gants isolants contre le froid.",
+			".2": "Porter un équipement de protection du visage.",
+			".3": "Porter un équipement de protection des yeux."
+		},
+		{
+			"code": "P301+P310",
+			".0": "EN CAS D’INGESTION: Appeler immédiatement un CENTRE ANTIPOISON/un médecin/…",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "EN CAS D’INGESTION: Appeler immédiatement un CENTRE ANTIPOISON",
+			".2": "EN CAS D’INGESTION: Appeler immédiatement un médecin",
+			"-1": "EN CAS D’INGESTION: Appeler immédiatement {1}"
+		},
+		{
+			"code": "P301+P312",
+			".0": "EN CAS D’INGESTION: Appeler un CENTRE ANTIPOISON/un médecin/…/en cas de malaise.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "EN CAS D’INGESTION: Appeler un CENTRE ANTIPOISON en cas de malaise.",
+			".2": "EN CAS D’INGESTION: Appeler un médecin en cas de malaise.",
+			"-1": "EN CAS D’INGESTION: Appeler {1} en cas de malaise."
+		},
+		{
+			"code": "P301+P312",
+			".0": "EN CAS D'INGESTION: Appeler un CENTRE ANTIPOISON/un médecin/…/ en cas de malaise.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "EN CAS D'INGESTION: Appeler un CENTRE ANTIPOISON en cas de malaise.",
+			".2": "EN CAS D'INGESTION: Appeler un médecin en cas de malaise.",
+			"-1": "EN CAS D'INGESTION: Appeler {1} en cas de malaise."
+		},
+		{
+			"code": "P302+P334",
+			".0": "EN CAS DE CONTACT AVEC LA PEAU: rincer à l’eau fraîche/poser une compresse humide.",
+			"type": "#note: 2 variants",
+			".1": "EN CAS DE CONTACT AVEC LA PEAU: rincer à l’eau fraîche.",
+			".2": "EN CAS DE CONTACT AVEC LA PEAU: poser une compresse humide."
+		},
+		{
+			"code": "P302+P335+P334",
+			".0": "EN CAS DE CONTACT AVEC LA PEAU: Enlever avec précaution les particules déposées sur la peau. Rincer à l'eau fraîche [ou poser une compresse humide].",
+			"type": "#note: 2 variants",
+			".1": "EN CAS DE CONTACT AVEC LA PEAU: Enlever avec précaution les particules déposées sur la peau. Rincer à l'eau fraîche.",
+			".2": "EN CAS DE CONTACT AVEC LA PEAU: Enlever avec précaution les particules déposées sur la peau. Rincer à l'eau fraîche ou poser une compresse humide."
+		},
+		{
+			"code": "P302+P352",
+			".0": "EN CAS DE CONTACT AVEC LA PEAU: Laver abondamment à l’eau/…",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "EN CAS DE CONTACT AVEC LA PEAU: Laver abondamment à l’eau/…",
+			"-1": "EN CAS DE CONTACT AVEC LA PEAU: Laver {1}"
+		},
+		{
+			"code": "P303+P361+P353",
+			".0": "EN CAS DE CONTACT AVEC LA PEAU (ou les cheveux): Enlever immédiatement tous les vêtements contaminés. Rincer la peau à l'eau [ou se doucher].",
+			"type": "#note: 2 variants",
+			".1": "EN CAS DE CONTACT AVEC LA PEAU (ou les cheveux): Enlever immédiatement tous les vêtements contaminés. Rincer la peau à l'eau.",
+			".2": "EN CAS DE CONTACT AVEC LA PEAU (ou les cheveux): Enlever immédiatement tous les vêtements contaminés. Rincer la peau à l'eau ou se doucher."
+		},
+		{
+			"code": "P308+P311",
+			".0": "EN CAS d’exposition prouvée ou suspectée: Appeler un CENTRE ANTIPOISON/un médecin/…",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "EN CAS d’exposition prouvée ou suspectée: Appeler un CENTRE ANTIPOISON",
+			".2": "EN CAS d’exposition prouvée ou suspectée: Appeler un médecin",
+			"-1": "EN CAS d’exposition prouvée ou suspectée: Appeler {1}"
+		},
+		{
+			"code": "P310",
+			".0": "Appeler immédiatement un CENTRE ANTIPOISON/un médecin/…",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "Appeler immédiatement un CENTRE ANTIPOISON",
+			".2": "Appeler immédiatement un médecin",
+			"-1": "Appeler immédiatement {1}"
+		},
+		{
+			"code": "P311",
+			".0": "Appeler un CENTRE ANTIPOISON/un médecin/…",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "Appeler un CENTRE ANTIPOISON",
+			".2": "Appeler un médecin",
+			"-1": "Appeler {1}"
+		},
+		{
+			"code": "P312",
+			".0": "Appeler un CENTRE ANTIPOISON/un médecin/…/en cas de malaise.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "Appeler un CENTRE ANTIPOISON en cas de malaise.",
+			".2": "Appeler un médecin en cas de malaise.",
+			"-1": "Appeler {1} en cas de malaise."
+		},
+		{
+			"code": "P312",
+			".0": "Appeler un CENTRE ANTIPOISON/un médecin/… en cas de malaise.",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "Appeler un CENTRE ANTIPOISON en cas de malaise.",
+			".2": "Appeler un médecin en cas de malaise.",
+			"-1": "Appeler {1} en cas de malaise."
+		},
+		{
+			"code": "P320",
+			".0": "Un traitement spécifique est urgent (voir … sur cette étiquette).",
+			"type": "#note: 1 mandatory parameter and noThisLabel option",
+			"-1": "Un traitement spécifique est urgent (voir {1} sur cette étiquette).",
+			"-2": "Un traitement spécifique est urgent (voir {1}{2})."
+		},
+		{
+			"code": "P321",
+			".0": "Traitement spécifique (voir … sur cette étiquette).",
+			"type": "#note: 1 mandatory parameter and noThisLabel option",
+			"-1": "Traitement spécifique (voir {1} sur cette étiquette).",
+			"-2": "Traitement spécifique (voir {1}{2})."
+		},
+		{
+			"code": "P322",
+			".0": "Mesures spécifiques (voir … sur cette étiquette).",
+			"type": "#note: 1 mandatory parameter and noThisLabel option",
+			"-1": "Mesures spécifiques (voir {1} sur cette étiquette).",
+			"-2": "Mesures spécifiques (voir {1}{2})."
+		},
+		{
+			"code": "P334",
+			".0": "Rincer à l’eau fraîche/poser une compresse humide.",
+			"type": "#note: 2 variants",
+			".1": "Rincer à l’eau fraîche.",
+			".2": "Poser une compresse humide."
+		},
+		{
+			"code": "P334",
+			".0": "Rincer à l'eau fraîche [ou poser une compresse humide].",
+			"type": "#note: 2 variants",
+			".1": "Rincer à l'eau fraîche.",
+			".2": "Rincer à l'eau fraîche ou poser une compresse humide."
+		},
+		{
+			"code": "P335+P334",
+			".0": "Enlever avec précaution les particules déposées sur la peau. Rincer à l’eau fraîche/poser une compresse humide.",
+			"type": "#note: 2 variants",
+			".1": "Enlever avec précaution les particules déposées sur la peau. Rincer à l’eau fraîche.",
+			".2": "Enlever avec précaution les particules déposées sur la peau. Poser une compresse humide."
+		},
+		{
+			"code": "P342+P311",
+			".0": "En cas de symptômes respiratoires: Appeler un CENTRE ANTIPOISON/un médecin/…",
+			"type": "#note: 2 variants or 1 parameter",
+			".1": "En cas de symptômes respiratoires: Appeler un CENTRE ANTIPOISON",
+			".2": "En cas de symptômes respiratoires: Appeler un médecin",
+			"-1": "En cas de symptômes respiratoires: Appeler {1}"
+		},
+		{
+			"code": "P352",
+			".0": "Laver abondamment à l’eau/…",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Laver abondamment à l’eau",
+			"-1": "Laver {1}"
+		},
+		{
+			"code": "P353",
+			".0": "Rincer la peau à l'eau [ou se doucher].",
+			"type": "#note: 2 variants",
+			".1": "Rincer la peau à l'eau.",
+			".2": "Rincer la peau à l'eau ou se doucher."
+		},
+		{
+			"code": "P370+P378",
+			".0": "En cas d’incendie: utiliser … pour l’extinction.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "En cas d’incendie: utiliser {1} pour l’extinction."
+		},
+		{
+			"code": "P370+P378",
+			".0": "En cas d’incendie: Utiliser… pour l’extinction.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "En cas d’incendie: Utiliser {1} pour l’extinction."
+		},
+		{
+			"code": "P370+P380+P375+P378",
+			".0": "En cas d'incendie: Évacuer la zone. Combattre l'incendie à distance à cause du risque d'explosion. Utiliser … pour l'extinction.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "En cas d'incendie: Évacuer la zone. Combattre l'incendie à distance à cause du risque d'explosion. Utiliser {1} pour l'extinction."
+		},
+		{
+			"code": "P378",
+			".0": "Utiliser … pour l’extinction.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Utiliser {1} pour l’extinction."
+		},
+		{
+			"code": "P378",
+			".0": "Utiliser… pour l’extinction.",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Utiliser {1} pour l’extinction."
+		},
+		{
+			"code": "P401",
+			".0": "Stocker …",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Stocker {1}"
+		},
+		{
+			"code": "P401",
+			".0": "Stocker conformément à… .",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Stocker conformément à {1}."
+		},
+		{
+			"code": "P406",
+			".0": "Stocker dans un récipient résistant à la corrosion/récipient en … avec doublure intérieure résistant à la corrosion.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Stocker dans un récipient résistant à la corrosion avec doublure intérieure résistant à la corrosion.",
+			"-1": "Stocker dans un récipient en … avec doublure intérieure résistant à la corrosion."
+		},
+		{
+			"code": "P406",
+			".0": "Stocker dans un récipient résistant à la corrosion/… avec doublure intérieure.",
+			"type": "#note: 1 variant or 1 parameter",
+			".1": "Stocker dans un récipient résistant à la corrosion avec doublure intérieure.",
+			"-1": "Stocker dans un récipient {1} avec doublure intérieure."
+		},
+		{
+			"code": "P410+P412",
+			".0": "Protéger du rayonnement solaire. Ne pas exposer à une température supérieure à 50 °C/122 °F.",
+			"type": "#note: 2 variants",
+			".1": "Protéger du rayonnement solaire. Ne pas exposer à une température supérieure à 50 °C.",
+			".2": "Protéger du rayonnement solaire. Ne pas exposer à une température supérieure à 122 °F."
+		},
+		{
+			"code": "P410+P412",
+			".0": "Protéger du rayonnement solaire. Ne pas exposer à une température supérieure à 50 °C/122 °F.",
+			"type": "#note: 2 variants",
+			".1": "Protéger du rayonnement solaire. Ne pas exposer à une température supérieure à 50 °C.",
+			".2": "Protéger du rayonnement solaire. Ne pas exposer à une température supérieure à 122 °F."
+		},
+		{
+			"code": "P411",
+			".0": "Stocker à une température ne dépassant pas … °C/… °F.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Stocker à une température ne dépassant pas {1} °C.",
+			".2-1": "Stocker à une température ne dépassant pas {1} °F."
+		},
+		{
+			"code": "P411",
+			".0": "Stocker à une température ne dépassant pas … °C/… °F.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Stocker à une température ne dépassant pas {1} °C.",
+			".2-1": "Stocker à une température ne dépassant pas {1} °F."
+		},
+		{
+			"code": "P411+P235",
+			".0": "Stocker à une température ne dépassant pas … °C/… °F. Tenir au frais.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Stocker à une température ne dépassant pas {1} °C. Tenir au frais.",
+			".2-1": "Stocker à une température ne dépassant pas {1} °F. Tenir au frais."
+		},
+		{
+			"code": "P411+P235",
+			".0": "Stocker à une température ne dépassant pas … °C/… °F. Tenir au frais.",
+			"type": "#note: 2 variants with 1 mandatory parameter each",
+			".1-1": "Stocker à une température ne dépassant pas {1} °C. Tenir au frais.",
+			".2-1": "Stocker à une température ne dépassant pas {1} °F. Tenir au frais."
+		},
+		{
+			"code": "P412",
+			".0": "Ne pas exposer à une température supérieure à 50 °C/122 °F.",
+			"type": "#note: 2 variants",
+			".1": "Ne pas exposer à une température supérieure à 50 °C.",
+			".2": "Ne pas exposer à une température supérieure à 122 °F."
+		},
+		{
+			"code": "P412",
+			".0": "Ne pas exposer à une température supérieure à 50 °C/122 °F.",
+			"type": "#note: 2 variants",
+			".1": "Ne pas exposer à une température supérieure à 50 °C.",
+			".2": "Ne pas exposer à une température supérieure à 122 °F."
+		},
+		{
+			"code": "P413",
+			".0": "Stocker les quantités en vrac de plus de … kg/… lb à une température ne dépassant pas … °C/… °F.",
+			"type": "#note: 2 variants with 2 mandatory parameters each",
+			".1-2": "Stocker les quantités en vrac de plus de {1} kg à une température ne dépassant pas {2} °C.",
+			".2-2": "Stocker les quantités en vrac de plus de {1} lb à une température ne dépassant pas {2} °F."
+		},
+		{
+			"code": "P413",
+			".0": "Stocker les quantités en vrac de plus de … kg/… lb à une température ne dépassant pas … °C/… °F.",
+			"type": "#note: 2 variants with 2 mandatory parameters each",
+			".1-2": "Stocker les quantités en vrac de plus de {1} kg à une température ne dépassant pas {2} °C.",
+			".2-2": "Stocker les quantités en vrac de plus de {1} lb à une température ne dépassant pas {2} °F."
+		},
+		{
+			"code": "P422",
+			".0": "Stocker le contenu sous …",
+			"type": "#note: 1 mandatory parameter",
+			"-1": "Stocker le contenu sous {1}"
+		},
+		{
+			"code": "P501",
+			".0": "Éliminer le contenu/récipient dans …",
+			"type": "#note: 2 variants and 1 mandatory parameter",
+			".0-1": "Éliminer le contenu/récipient dans {1}",
+			".1-1": "Éliminer le contenu {1}",
+			".2-1": "Éliminer le récipient {1}"
+		}
+	]
+}
