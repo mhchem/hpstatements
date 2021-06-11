@@ -19,12 +19,11 @@ This feedback is intended for the authors, translators, and editors of the origi
 
 - EUH018: EN `flammable/explosive`, DE with different order: `explosionsfähige/entzündbare`
 - P250: Wäre eine bessere Übersetzung für `Do not subject to shock.` vielleicht `Nicht erschüttern.`, statt `Nicht stoßen`?
-- Für `IF exposed or concerned` vielleicht nicht `BEI Exposition oder falls betroffen`, sondern `besorgt`?
+- Ist Übersetzung von `IF exposed or concerned` wirklich `BEI Exposition oder falls betroffen`. Meint "concerned" nicht eher etwas anderes?
 - P406: Falls der Behälter nicht "korrosionsbeständig" sein muss, sondern anders (`…`), muss doch auch die Innenauskleidung nicht "korrosionsbeständig", sondern anders sein.
 - `GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.` → `GIFTINFORMATIONSZENTRUM/Arzt anrufen.` (mehrfach)
 - `Mit viel Wasser/…/waschen` → `Mit viel Wasser/… waschen` (mehrfach)
-- Schlusspunkt fehlt bei: H300+..., H301+..., H302+..., H361, P230
-- Leerzeichen vor Schlusspunkt zu viel: P250, P401
+- Schlusspunkt fehlt bei: H361, P230 (und bei vielen Sätzen, bei denen das schon im englischen Original so ist)
 
 
 ## EN
@@ -35,9 +34,9 @@ This feedback is intended for the authors, translators, and editors of the origi
 - P410+P412, P411, P412, P413: °C has a space after the number, but °F has not. Examples: `50 °C/122°F`, `… °C/…°F`.
 - P370+P380+P375[+P378]: `[Use … to extinguish].` should be `[Use … to extinguish.]` in order to align with P370+P380+P375
 - P313, P314, P315, P308+P313, P332+P313, P333+P313, P336+P315, P337+P313: Is "medical advice/attention" really meant as two options to choose from? A lot of languages translate with just one phrase, they probably do not have the same distinction. Maybe rephrase to one option, or to "medical advice or attention" (as was done to other phrases with slash that were not options to chose from).
-- These sentences do not end with a dot: H300+H310, H300+H310+H330, H300+H330, H301+H311, H301+H311+H331, H301+H331, H302+H312, H302+H312+H332, H302+H332, H310+H330, H311+H331, H312+H332, H420, P230, P231, P310, P311, P352, P301+P310, P302+P352, P308+P311, P342+P311, P501
+- These sentences do not end with a dot: H300+..., H301+..., H302+..., H310+H330, H311+H331, H312+H332, H420, P230, P231, P310, P311, P352, P301+P310, P302+P352, P308+P311, P342+P311, P501
 - H360: Additional space before closing angular bracket: `<state specific effect if known >`
-
+- Space before end-of-sentence period: P250, P401
 
 ## FR
 

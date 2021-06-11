@@ -1,5 +1,5 @@
 {
-	"_licenseLong": "This document contains data extracted from <https://eur-lex.europa.eu>, enhanced by individual contributors. This work is licensed under the Creative Commons Attribution 4.0 International licence​​ (<https://creativecommons.org/licenses/by/4.0/>). This means that you can re-use the content provided you acknowledge the source and indicate any changes you have made. The data is not necessarily comprehensive, complete, accurate or up to date. The acknowledgement is not needed when using statements of the data set for labelling products, of course, as this is the intended usage.",
+	"_licenseLong": "This document contains data extracted from <https://eur-lex.europa.eu>, enhanced by individual contributors. This work is licensed under the Creative Commons Attribution 4.0 International licence (<https://creativecommons.org/licenses/by/4.0/>). This means that you can re-use the content provided you acknowledge the source and indicate any changes you have made. The data is not necessarily comprehensive, complete, accurate or up to date. The acknowledgement is not needed when using statements of the data set for labelling products, of course, as this is the intended usage.",
 	"_licenseShort": "© European Union, https://eur-lex.europa.eu, 1998-2020, CC BY 4.0, © hpstatements contributors, https://github.com/mhchem/hpstatements/contributors, 2019-2020, CC BY 4.0",
 	"_source": "https://github.com/mhchem/hpstatements",
 	"enhancements": [
@@ -48,38 +48,38 @@
 		{
 			"code": "H370",
 			".0": "Risque avéré d'effets graves pour les organes <ou indiquer tous les organes affectés, s'ils sont connus> <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
-			"type": "#note: 2 optional parameters",
-			"-0": "Risque avéré d'effets graves pour les organes.",
+			"type": "#note: 1 variant or 1 parameter and 1 optional parameter",
+			".1": "Risque avéré d'effets graves pour les organes.",
 			"-1": "Risque avéré d'effets graves pour {1}.",
-			"-2": "Risque avéré d'effets graves pour les organes{2}.",
-			"-3": "Risque avéré d'effets graves pour {1}{2}."
+			".1-1": "Risque avéré d'effets graves pour les organes{1}.",
+			"-2": "Risque avéré d'effets graves pour {1}{2}."
 		},
 		{
 			"code": "H371",
 			".0": "Risque présumé d'effets graves pour les organes <ou indiquer tous les organes affectés, s'ils sont connus> <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
-			"type": "#note: 2 optional parameters",
-			"-0": "Risque présumé d'effets graves pour les organes.",
+			"type": "#note: 1 variant or 1 parameter and 1 optional parameter",
+			".1": "Risque présumé d'effets graves pour les organes.",
 			"-1": "Risque présumé d'effets graves pour {1}.",
-			"-2": "Risque présumé d'effets graves pour les organes{2}.",
-			"-3": "Risque présumé d'effets graves pour {1}{2}."
+			".1-1": "Risque présumé d'effets graves pour les organes{1}.",
+			"-2": "Risque présumé d'effets graves pour {1}{2}."
 		},
 		{
 			"code": "H372",
 			".0": "Risque avéré d'effets graves pour les organes <indiquer tous les organes affectés, s'ils sont connus> à la suite d'expositions répétées ou d'une exposition prolongée <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
-			"type": "#note: 2 optional parameters",
-			"-0": "Risque avéré d'effets graves pour les organes à la suite d'expositions répétées ou d'une exposition prolongée.",
+			"type": "#note: 1 variant or 1 parameter and 1 optional parameter",
+			".1": "Risque avéré d'effets graves pour les organes à la suite d'expositions répétées ou d'une exposition prolongée.",
 			"-1": "Risque avéré d'effets graves pour {1} à la suite d'expositions répétées ou d'une exposition prolongée.",
-			"-2": "Risque avéré d'effets graves pour les organes{2}.",
-			"-3": "Risque avéré d'effets graves pour {1}{2}."
+			".1-1": "Risque avéré d'effets graves pour les organes{1}.",
+			"-2": "Risque avéré d'effets graves pour {1}{2}."
 		},
 		{
 			"code": "H373",
 			".0": "Risque présumé d'effets graves pour les organes <ou indiquer tous les organes affectés, s'ils sont connus> à la suite d'expositions répétées ou d'une exposition prolongée <indiquer la voie d'exposition s'il est formellement prouvé qu'aucune autre voie d'exposition ne conduit au même danger>.",
-			"type": "#note: 2 optional parameters",
-			"-0": "Risque présumé d'effets graves pour les organes à la suite d'expositions répétées ou d'une exposition prolongée.",
+			"type": "#note: 1 variant or 1 parameter and 1 optional parameter",
+			".1": "Risque présumé d'effets graves pour les organes à la suite d'expositions répétées ou d'une exposition prolongée.",
 			"-1": "Risque présumé d'effets graves pour {1} à la suite d'expositions répétées ou d'une exposition prolongée.",
-			"-2": "Risque présumé d'effets graves pour les organes{2}.",
-			"-3": "Risque présumé d'effets graves pour {1}{2}."
+			".1-1": "Risque présumé d'effets graves pour les organes{1}.",
+			"-2": "Risque présumé d'effets graves pour {1}{2}."
 		},
 		{
 			"code": "EUH018",
@@ -97,7 +97,7 @@
 		{
 			"code": "P220",
 			".0": "Tenir/stocker à l’écart des vêtements/…/matières combustibles",
-			"type": "#note: 2 variants and 2 variants or 1 parameter",
+			"type": "#note: 2 variants with 2 variants or 1 parameter",
 			".1.1": "Tenir à l'écart des vêtements.",
 			".1.2": "Tenir à l'écart des matières combustibles.",
 			".1-1": "Tenir à l'écart {1}.",
@@ -310,21 +310,21 @@
 			".0": "Un traitement spécifique est urgent (voir … sur cette étiquette).",
 			"type": "#note: 1 mandatory parameter and noThisLabel option",
 			"-1": "Un traitement spécifique est urgent (voir {1} sur cette étiquette).",
-			"-2": "Un traitement spécifique est urgent (voir {1}{2})."
+			".nolabel-1": "Un traitement spécifique est urgent (voir {1})."
 		},
 		{
 			"code": "P321",
 			".0": "Traitement spécifique (voir … sur cette étiquette).",
 			"type": "#note: 1 mandatory parameter and noThisLabel option",
 			"-1": "Traitement spécifique (voir {1} sur cette étiquette).",
-			"-2": "Traitement spécifique (voir {1}{2})."
+			".nolabel-1": "Traitement spécifique (voir {1})."
 		},
 		{
 			"code": "P322",
 			".0": "Mesures spécifiques (voir … sur cette étiquette).",
 			"type": "#note: 1 mandatory parameter and noThisLabel option",
 			"-1": "Mesures spécifiques (voir {1} sur cette étiquette).",
-			"-2": "Mesures spécifiques (voir {1}{2})."
+			".nolabel-1": "Mesures spécifiques (voir {1})."
 		},
 		{
 			"code": "P334",
@@ -442,28 +442,28 @@
 		{
 			"code": "P411",
 			".0": "Stocker à une température ne dépassant pas … °C/… °F.",
-			"type": "#note: 2 variants with 1 mandatory parameter each",
+			"type": "#note: 2 variants with 1 mandatory parameter",
 			".1-1": "Stocker à une température ne dépassant pas {1} °C.",
 			".2-1": "Stocker à une température ne dépassant pas {1} °F."
 		},
 		{
 			"code": "P411",
 			".0": "Stocker à une température ne dépassant pas … °C/… °F.",
-			"type": "#note: 2 variants with 1 mandatory parameter each",
+			"type": "#note: 2 variants with 1 mandatory parameter",
 			".1-1": "Stocker à une température ne dépassant pas {1} °C.",
 			".2-1": "Stocker à une température ne dépassant pas {1} °F."
 		},
 		{
 			"code": "P411+P235",
 			".0": "Stocker à une température ne dépassant pas … °C/… °F. Tenir au frais.",
-			"type": "#note: 2 variants with 1 mandatory parameter each",
+			"type": "#note: 2 variants with 1 mandatory parameter",
 			".1-1": "Stocker à une température ne dépassant pas {1} °C. Tenir au frais.",
 			".2-1": "Stocker à une température ne dépassant pas {1} °F. Tenir au frais."
 		},
 		{
 			"code": "P411+P235",
 			".0": "Stocker à une température ne dépassant pas … °C/… °F. Tenir au frais.",
-			"type": "#note: 2 variants with 1 mandatory parameter each",
+			"type": "#note: 2 variants with 1 mandatory parameter",
 			".1-1": "Stocker à une température ne dépassant pas {1} °C. Tenir au frais.",
 			".2-1": "Stocker à une température ne dépassant pas {1} °F. Tenir au frais."
 		},
@@ -484,14 +484,14 @@
 		{
 			"code": "P413",
 			".0": "Stocker les quantités en vrac de plus de … kg/… lb à une température ne dépassant pas … °C/… °F.",
-			"type": "#note: 2 variants with 2 mandatory parameters each",
+			"type": "#note: 2 variants with 2 mandatory parameters",
 			".1-2": "Stocker les quantités en vrac de plus de {1} kg à une température ne dépassant pas {2} °C.",
 			".2-2": "Stocker les quantités en vrac de plus de {1} lb à une température ne dépassant pas {2} °F."
 		},
 		{
 			"code": "P413",
 			".0": "Stocker les quantités en vrac de plus de … kg/… lb à une température ne dépassant pas … °C/… °F.",
-			"type": "#note: 2 variants with 2 mandatory parameters each",
+			"type": "#note: 2 variants with 2 mandatory parameters",
 			".1-2": "Stocker les quantités en vrac de plus de {1} kg à une température ne dépassant pas {2} °C.",
 			".2-2": "Stocker les quantités en vrac de plus de {1} lb à une température ne dépassant pas {2} °F."
 		},
