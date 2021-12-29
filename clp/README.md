@@ -18,7 +18,7 @@ The data is not necessarily comprehensive, complete, accurate or up to date.
 
 The acknowledgement is not needed when using statements of the data set for labelling products, of course, as this is the intended usage.
 
-- © European Union, https://eur-lex.europa.eu, 1998-2020, CC BY 4.0
+- © European Union, https://eur-lex.europa.eu, 1998-2021, CC BY 4.0
 
 
 
@@ -38,7 +38,7 @@ Version | Listing Page | Comment
 2016-04-01 | <http://data.europa.eu/eli/reg/2008/1272/2016-04-01> | No changes for statements
 2017-01-01 | <http://data.europa.eu/eli/reg/2008/1272/2017-01-01> |
 2017-06-01 | <http://data.europa.eu/eli/reg/2008/1272/2017-06-01> | No changes for statements
-2018-03-01 | <http://data.europa.eu/eli/reg/2008/1272/2018-03-01> | Most-recent statements
+2018-03-01 | <http://data.europa.eu/eli/reg/2008/1272/2018-03-01> |
 2018-12-01 | <http://data.europa.eu/eli/reg/2008/1272/2018-12-01> | No changes for statements
 2019-07-26 | <http://data.europa.eu/eli/reg/2008/1272/2019-07-26> | No changes for statements, except for LT
 2019-12-01 | <http://data.europa.eu/eli/reg/2008/1272/2019-12-01> | No changes for statements
@@ -48,6 +48,7 @@ Version | Listing Page | Comment
 2020-10-28 | <http://data.europa.eu/eli/reg/2008/1272/2020-10-28> | No changes for statements
 2020-11-14 | <http://data.europa.eu/eli/reg/2008/1272/2020-11-14> | No changes for statements
 2021-05-10 | <http://data.europa.eu/eli/reg/2008/1272/2021-05-10> | No changes for statements
+2021-10-01 | <http://data.europa.eu/eli/reg/2008/1272/2021-10-01> | Most-recent statements
 
 All listing pages had a footer "Legal notice", linking to <https://eur-lex.europa.eu/content/legal-notice/legal-notice.html>, applying the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/).
 
