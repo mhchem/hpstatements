@@ -18,7 +18,7 @@ The data is not necessarily comprehensive, complete, accurate or up to date.
 
 The acknowledgement is not needed when using statements of the data set for labelling products, of course, as this is the intended usage.
 
-- © European Union, https://eur-lex.europa.eu, 1998-2021, CC BY 4.0
+- © European Union, https://eur-lex.europa.eu, 1998-2022, CC BY 4.0
 
 
 
@@ -49,7 +49,8 @@ Version | Listing Page | Comment
 2020-11-14 | <http://data.europa.eu/eli/reg/2008/1272/2020-11-14> | No changes for statements
 2021-05-10 | <http://data.europa.eu/eli/reg/2008/1272/2021-05-10> | No changes for statements
 2021-10-01 | <http://data.europa.eu/eli/reg/2008/1272/2021-10-01> | Most-recent statements
+2022-03-01 | <http://data.europa.eu/eli/reg/2008/1272/2022-03-01> |
 
 All listing pages had a footer "Legal notice", linking to <https://eur-lex.europa.eu/content/legal-notice/legal-notice.html>, applying the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/).
 
-The consolidated version of [2009-01-20](http://data.europa.eu/eli/reg/2008/1272/2009-01-20) was not included here, because it only exists in Danish (da). Hungarian (hr) does not exist for before 2015. Irish (ga) translations were not updated by the EU between 2010 and 2020.
+The consolidated version of [2009-01-20](http://data.europa.eu/eli/reg/2008/1272/2009-01-20) was not included here, because it only exists in Danish (da). Hungarian (hr) does not exist for before 2015. Irish (ga) translations exist only for 2008-12-16, and 2020-05-01 to 2021-10-01.

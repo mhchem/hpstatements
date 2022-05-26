@@ -1,6 +1,6 @@
 # Potential Errors and Improvements of the H and P Statements
 
-This feedback is intended for the authors, translators, and editors of the original statements, based on the documents found at <http://data.europa.eu/eli/reg/2008/1272/2020-11-14>
+This feedback is intended for the authors, translators, and editors of the original statements, based on the documents found at <http://data.europa.eu/eli/reg/2008/1272/2022-03-01>
 
 
 ## BG
@@ -21,15 +21,15 @@ This feedback is intended for the authors, translators, and editors of the origi
 - P250: Wäre eine bessere Übersetzung für `Do not subject to shock.` vielleicht `Nicht erschüttern.`, statt `Nicht stoßen`?
 - Ist Übersetzung von `IF exposed or concerned` wirklich `BEI Exposition oder falls betroffen`. Meint "concerned" nicht eher etwas anderes?
 - P406: Falls der Behälter nicht "korrosionsbeständig" sein muss, sondern anders (`…`), muss doch auch die Innenauskleidung nicht "korrosionsbeständig", sondern anders sein.
-- `GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.` → `GIFTINFORMATIONSZENTRUM/Arzt anrufen.` (mehrfach)
-- `Mit viel Wasser/…/waschen` → `Mit viel Wasser/… waschen` (mehrfach)
+- `GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.` sollte besser sein: `GIFTINFORMATIONSZENTRUM/Arzt anrufen.` (mehrfach)
+- `Mit viel Wasser/…/waschen` sollte besser sein: `Mit viel Wasser/… waschen` (mehrfach)
 - Schlusspunkt fehlt bei: H361, P230 (und bei vielen Sätzen, bei denen das schon im englischen Original so ist)
 
 
 ## EN
 
 - Inconsistent spelling of `center`/`centre`, P311: `Call a POISON CENTER/doctor/…`, P312: `Call a POISON CENTRE/doctor/… if you feel unwell.` and others
-- What should brackets mean in P284? I guess it's not an optional part.
+- What should brackets mean in P284? I guess, it's not an optional part.
 - Spacing around `…` not perfect: P230, P370+P378, P378, P401
 - P410+P412, P411, P412, P413: °C has a space after the number, but °F has not. Examples: `50 °C/122°F`, `… °C/…°F`.
 - P370+P380+P375[+P378]: `[Use … to extinguish].` should be `[Use … to extinguish.]` in order to align with P370+P380+P375
@@ -37,6 +37,7 @@ This feedback is intended for the authors, translators, and editors of the origi
 - These sentences do not end with a dot: H300+..., H301+..., H302+..., H310+H330, H311+H331, H312+H332, H420, P230, P231, P310, P311, P352, P301+P310, P302+P352, P308+P311, P342+P311, P501
 - H360: Additional space before closing angular bracket: `<state specific effect if known >`
 - Space before end-of-sentence period: P250, P401
+
 
 ## FR
 
@@ -49,6 +50,16 @@ This feedback is intended for the authors, translators, and editors of the origi
 - These sentences do not end with a dot: P370, P371, P231+P232, (and the same as in English: H300+H310, H300+H310+H330, H300+H330, H301+H311, H301+H311+H331, H301+H331, H302+H312, H302+H312+H332, H302+H332, H310+H330, H311+H331, H312+H332, H420, P230, P231, P310, P311, P352, P301+P310, P302+P352, P308+P311, P342+P311, P501)
 
 
+## MT
+
+- Apostrophes are inconsistent (`'` or `’`) in a lot of places, e.g. P301+P310 `JEKK JINBELA’:`, P301+P312: `JEKK JINBELA':`
+
+
 ## NL
 
 - EUH203: Doesn't contain `(VI)` like all the other languages
+
+
+## PT
+
+- Space before end-of-sentence period: H314, P401
