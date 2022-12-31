@@ -48,8 +48,9 @@ Version | Listing Page | Comment
 2020-10-28 | <http://data.europa.eu/eli/reg/2008/1272/2020-10-28> | No changes for statements
 2020-11-14 | <http://data.europa.eu/eli/reg/2008/1272/2020-11-14> | No changes for statements
 2021-05-10 | <http://data.europa.eu/eli/reg/2008/1272/2021-05-10> | No changes for statements
-2021-10-01 | <http://data.europa.eu/eli/reg/2008/1272/2021-10-01> | Most-recent statements
-2022-03-01 | <http://data.europa.eu/eli/reg/2008/1272/2022-03-01> |
+2021-10-01 | <http://data.europa.eu/eli/reg/2008/1272/2021-10-01> | **Most recent statements**
+2022-03-01 | <http://data.europa.eu/eli/reg/2008/1272/2022-03-01> | No changes for statements
+2022-12-17 | <http://data.europa.eu/eli/reg/2008/1272/2022-12-17> | No changes for statements
 
 All listing pages had a footer "Legal notice", linking to <https://eur-lex.europa.eu/content/legal-notice/legal-notice.html>, applying the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/).
 
