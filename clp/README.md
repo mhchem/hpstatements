@@ -53,6 +53,7 @@ Version | Listing Page | Comment
 2022-12-17 | <http://data.europa.eu/eli/reg/2008/1272/2022-12-17> | No changes for statements
 2023-04-20 | <http://data.europa.eu/eli/reg/2008/1272/2023-04-20> |
 2023-07-31 | <http://data.europa.eu/eli/reg/2008/1272/2023-07-31> | No changes for statements
+2023-12-01 | <http://data.europa.eu/eli/reg/2008/1272/2023-12-01> | No changes for statements
 
 All listing pages had a footer "Legal notice", linking to <https://eur-lex.europa.eu/content/legal-notice/legal-notice.html>, applying the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/).
 
