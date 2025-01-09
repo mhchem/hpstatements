@@ -816,7 +816,7 @@
 		"latest/de/P411": "#note: 2 variants with 1 mandatory parameter",
 		"latest/de/P411.0": "Bei Temperaturen nicht über … °C/… °F aufbewahren.",
 		"latest/de/P411.1-1": "Bei Temperaturen nicht über {1} °C aufbewahren.",
-		"latest/de/P411.2-1": "Bei Temperaturen nicht über {2} °F aufbewahren.",
+		"latest/de/P411.2-1": "Bei Temperaturen nicht über {1} °F aufbewahren.",
 		"latest/de/P412": "#note: 2 variants",
 		"latest/de/P412.0": "Nicht Temperaturen über 50 °C/122 °F aussetzen.",
 		"latest/de/P412.1": "Nicht Temperaturen über 50 °C aussetzen.",
