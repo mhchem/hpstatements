@@ -18,5 +18,5 @@ The data is not necessarily comprehensive, complete, accurate or up to date.
 
 The acknowledgement is not needed when using statements of the data set for labelling products, of course, as this is the intended usage.
 
-- © European Union, https://eur-lex.europa.eu, 1998-2023, CC BY 4.0
-- © hpstatements contributors, https://github.com/mhchem/hpstatements/contributors, 2019-2023, CC BY 4.0
+- © European Union, https://eur-lex.europa.eu, 1998-2025, CC BY 4.0
+- © hpstatements contributors, https://github.com/mhchem/hpstatements/contributors, 2019-2025, CC BY 4.0
