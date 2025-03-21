@@ -491,7 +491,7 @@
 			".0": "Bei Temperaturen nicht über … °C/… °F aufbewahren.",
 			"type": "#note: 2 variants with 1 mandatory parameter",
 			".1-1": "Bei Temperaturen nicht über {1} °C aufbewahren.",
-			".2-1": "Bei Temperaturen nicht über {2} °F aufbewahren."
+			".2-1": "Bei Temperaturen nicht über {1} °F aufbewahren."
 		},
 		{
 			"code": "P411+P235",

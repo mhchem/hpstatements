@@ -451,14 +451,14 @@
 			".0": "Store at temperatures not exceeding … °C/…°F.",
 			"type": "#note: 2 variants with 1 mandatory parameter",
 			".1-1": "Store at temperatures not exceeding {1} °C.",
-			".2-1": "Store at temperatures not exceeding {2}°F."
+			".2-1": "Store at temperatures not exceeding {1}°F."
 		},
 		{
 			"code": "P411",
 			".0": "Store at temperatures not exceeding … °C/…°F.",
 			"type": "#note: 2 variants with 1 mandatory parameter",
 			".1-1": "Store at temperatures not exceeding {1} °C.",
-			".2-1": "Store at temperatures not exceeding {2}°F."
+			".2-1": "Store at temperatures not exceeding {1}°F."
 		},
 		{
 			"code": "P411+P235",

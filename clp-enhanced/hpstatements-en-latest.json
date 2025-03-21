@@ -816,7 +816,7 @@
 		"latest/en/P411": "#note: 2 variants with 1 mandatory parameter",
 		"latest/en/P411.0": "Store at temperatures not exceeding … °C/…°F.",
 		"latest/en/P411.1-1": "Store at temperatures not exceeding {1} °C.",
-		"latest/en/P411.2-1": "Store at temperatures not exceeding {2}°F.",
+		"latest/en/P411.2-1": "Store at temperatures not exceeding {1}°F.",
 		"latest/en/P412": "#note: 2 variants",
 		"latest/en/P412.0": "Do not expose to temperatures exceeding 50 °C/122°F.",
 		"latest/en/P412.1": "Do not expose to temperatures exceeding 50 °C.",
