@@ -28,34 +28,35 @@ The data was extracted from files downloaded from these pages.
 
 Version | Listing Page | Comment
 ---|---|---
-2008-12-16 | <http://data.europa.eu/eli/reg/2008/1272/oj>
-2010-12-01 | <http://data.europa.eu/eli/reg/2008/1272/2010-12-01> | No visible changes for statements
-2011-04-19 | <http://data.europa.eu/eli/reg/2008/1272/2011-04-19>
-2013-12-01 | <http://data.europa.eu/eli/reg/2008/1272/2013-12-01> | No changes for statements
-2015-01-01 | <http://data.europa.eu/eli/reg/2008/1272/2015-01-01> | No changes for statements
-2015-06-01 | <http://data.europa.eu/eli/reg/2008/1272/2015-06-01>
-2016-01-01 | <http://data.europa.eu/eli/reg/2008/1272/2016-01-01> |
-2016-04-01 | <http://data.europa.eu/eli/reg/2008/1272/2016-04-01> | No changes for statements
-2017-01-01 | <http://data.europa.eu/eli/reg/2008/1272/2017-01-01> |
-2017-06-01 | <http://data.europa.eu/eli/reg/2008/1272/2017-06-01> | No changes for statements
-2018-03-01 | <http://data.europa.eu/eli/reg/2008/1272/2018-03-01> |
-2018-12-01 | <http://data.europa.eu/eli/reg/2008/1272/2018-12-01> | No changes for statements
-2019-07-26 | <http://data.europa.eu/eli/reg/2008/1272/2019-07-26> | No changes for statements, except for LT
-2019-12-01 | <http://data.europa.eu/eli/reg/2008/1272/2019-12-01> | No changes for statements
-2020-01-01 | <http://data.europa.eu/eli/reg/2008/1272/2020-01-01> | No changes for statements
-2020-05-01 | <http://data.europa.eu/eli/reg/2008/1272/2020-05-01> | No changes for statements
-2020-10-17 | <http://data.europa.eu/eli/reg/2008/1272/2020-10-17> |
-2020-10-28 | <http://data.europa.eu/eli/reg/2008/1272/2020-10-28> | No changes for statements
-2020-11-14 | <http://data.europa.eu/eli/reg/2008/1272/2020-11-14> | No changes for statements
-2021-05-10 | <http://data.europa.eu/eli/reg/2008/1272/2021-05-10> | No changes for statements
-2021-10-01 | <http://data.europa.eu/eli/reg/2008/1272/2021-10-01> |
-2022-03-01 | <http://data.europa.eu/eli/reg/2008/1272/2022-03-01> | No changes for statements
-2022-12-17 | <http://data.europa.eu/eli/reg/2008/1272/2022-12-17> | No changes for statements
-2023-04-20 | <http://data.europa.eu/eli/reg/2008/1272/2023-04-20> |
-2023-07-31 | <http://data.europa.eu/eli/reg/2008/1272/2023-07-31> | No changes for statements
-2023-12-01 | <http://data.europa.eu/eli/reg/2008/1272/2023-12-01> | No changes for statements
-2024-12-10 | <http://data.europa.eu/eli/reg/2008/1272/2024-12-10> | **Most recent statements**
-2025-02-01 | <http://data.europa.eu/eli/reg/2008/1272/2025-02-01> | No changes for statements
+2008-12-16 | <https://eur-lex.europa.eu/eli/reg/2008/1272/oj>
+2010-12-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2010-12-01> | No visible changes to the statements
+2011-04-19 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2011-04-19>
+2013-12-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2013-12-01> | No changes to the statements
+2015-01-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2015-01-01> | No changes to the statements
+2015-06-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2015-06-01>
+2016-01-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2016-01-01> |
+2016-04-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2016-04-01> | No changes to the statements
+2017-01-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2017-01-01> |
+2017-06-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2017-06-01> | No changes to the statements
+2018-03-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2018-03-01> |
+2018-12-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2018-12-01> | No changes to the statements
+2019-07-26 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2019-07-26> | No changes to the statements, except for LT
+2019-12-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2019-12-01> | No changes to the statements
+2020-01-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2020-01-01> | No changes to the statements
+2020-05-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2020-05-01> | No changes to the statements
+2020-10-17 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2020-10-17> |
+2020-10-28 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2020-10-28> | No changes to the statements
+2020-11-14 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2020-11-14> | No changes to the statements
+2021-05-10 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2021-05-10> | No changes to the statements
+2021-10-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2021-10-01> |
+2022-03-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2022-03-01> | No changes to the statements
+2022-12-17 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2022-12-17> | No changes to the statements
+2023-04-20 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2023-04-20> |
+2023-07-31 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2023-07-31> | No changes to the statements
+2023-12-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2023-12-01> | No changes to the statements
+2024-12-10 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2024-12-10> | No changes to the statements, except for ES and RO<br>**Most recent statements**
+2025-02-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2025-02-01> | No changes to the statements
+2025-09-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2025-09-01> | No changes to the statements
 
 All listing pages had a footer "Legal notice", linking to <https://eur-lex.europa.eu/content/legal-notice/legal-notice.html>, applying the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/).
 
