@@ -1,6 +1,6 @@
 # Potential Errors and Improvements of the H and P Statements
 
-This feedback is intended for the authors, translators, and editors of the original statements, based on the documents found at <http://data.europa.eu/eli/reg/2008/1272/2022-03-01>
+This feedback is intended for the authors, translators, and editors of the original statements, based on the documents found at <https://eur-lex.europa.eu/eli/reg/2008/1272/2025-09-01>.
 
 
 ## BG
@@ -19,7 +19,7 @@ This feedback is intended for the authors, translators, and editors of the origi
 
 - EUH018: EN `flammable/explosive`, DE with different order: `explosionsfähige/entzündbare`
 - P250: Wäre eine bessere Übersetzung für `Do not subject to shock.` vielleicht `Nicht erschüttern.`, statt `Nicht stoßen`?
-- Ist Übersetzung von `IF exposed or concerned` wirklich `BEI Exposition oder falls betroffen`. Meint "concerned" nicht eher etwas anderes?
+- Ist Übersetzung von `IF exposed or concerned` wirklich `BEI Exposition oder falls betroffen`. Meint "concerned" nicht eher etwas anderes, nämlich jemand, der besorgt ist und kompetente Antwort benötigt?
 - P406: Falls der Behälter nicht "korrosionsbeständig" sein muss, sondern anders (`…`), muss doch auch die Innenauskleidung nicht "korrosionsbeständig", sondern anders sein.
 - `GIFTINFORMATIONSZENTRUM/Arzt/…/anrufen.` sollte besser sein: `GIFTINFORMATIONSZENTRUM/Arzt anrufen.` (mehrfach)
 - `Mit viel Wasser/…/waschen` sollte besser sein: `Mit viel Wasser/… waschen` (mehrfach)
