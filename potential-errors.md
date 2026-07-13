@@ -1,6 +1,6 @@
 # Potential Errors and Improvements of the H and P Statements
 
-This feedback is intended for the authors, translators, and editors of the original statements, based on the documents found at <https://eur-lex.europa.eu/eli/reg/2008/1272/2025-09-01>.
+This feedback is intended for the authors, translators, and editors of the original statements, based on the documents found at <https://eur-lex.europa.eu/eli/reg/2008/1272/2026-07-01>.
 
 
 ## BG

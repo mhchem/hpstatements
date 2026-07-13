@@ -18,7 +18,7 @@ The data is not necessarily comprehensive, complete, accurate or up to date.
 
 The acknowledgement is not needed when using statements of the data set for labelling products, of course, as this is the intended usage.
 
-- © European Union, https://eur-lex.europa.eu, 1998-2025, CC BY 4.0
+- © European Union, https://eur-lex.europa.eu, 1998-2026, CC BY 4.0
 
 
 
@@ -57,6 +57,8 @@ Version | Listing Page | Comment
 2024-12-10 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2024-12-10> | No changes to the statements, except for ES and RO<br>**Most recent statements**
 2025-02-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2025-02-01> | No changes to the statements
 2025-09-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2025-09-01> | No changes to the statements
+2026-05-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2026-05-01> | No changes to the statements
+2026-07-01 | <https://eur-lex.europa.eu/eli/reg/2008/1272/2026-07-01> | No changes to the statements
 
 All listing pages had a footer "Legal notice", linking to <https://eur-lex.europa.eu/content/legal-notice/legal-notice.html>, applying the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/).
 
